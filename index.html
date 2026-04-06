@@ -62,6 +62,7 @@
         }
         .content { padding: 25px; }
         h2 { color: #1e5a3a; margin-bottom: 15px; }
+        h3 { color: #2b7a4b; margin: 15px 0 10px; }
         .progress-area { margin-bottom: 20px; }
         .question {
             background: #fef5e8;
@@ -90,10 +91,26 @@
             border-radius: 30px;
             cursor: pointer;
         }
-        .writing-box {
+        .writing-box, .grammar-box {
             background: #fef9e6;
             padding: 20px;
             border-radius: 24px;
+        }
+        .grammar-box ul, .grammar-box li {
+            margin-right: 20px;
+            line-height: 1.6;
+        }
+        .word-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .word-list span {
+            background: #e9ecef;
+            padding: 5px 12px;
+            border-radius: 30px;
+            font-size: 0.9rem;
         }
         footer { text-align: center; margin-top: 20px; font-size: 0.75rem; }
     </style>
@@ -159,6 +176,7 @@
             <div class="sub-tab" data-mode="full">📚 شامل (قواعد + إملاء + قراءة)</div>
             <div class="sub-tab" data-mode="vocab">📖 مفردات الوحدة</div>
             <div class="sub-tab" data-mode="writing">✍️ الكتابة</div>
+            <div class="sub-tab" data-mode="grammar">📘 شرح القواعد</div>
         `;
         document.querySelectorAll('.sub-tab').forEach(tab => {
             tab.onclick = () => {
@@ -174,6 +192,10 @@
     async function loadSubMode() {
         if (currentSubMode === 'writing') {
             await loadWritingSection();
+            return;
+        }
+        if (currentSubMode === 'grammar') {
+            await loadGrammarSection();
             return;
         }
         const fileName = (currentSubMode === 'full') ? 'questions.json' : 'vocabulary.json';
@@ -287,6 +309,53 @@
             localStorage.setItem(`writing_${currentUnit.id}`, text);
             document.getElementById('writing-feedback').innerHTML = '✅ تم حفظ كتابتك محلياً.';
         };
+    }
+
+    async function loadGrammarSection() {
+        const filePath = `units/${currentUnit.id}/grammar.json`;
+        let grammarData = {};
+        try {
+            const res = await fetch(filePath);
+            if (!res.ok) throw new Error('لا يوجد ملف شرح القواعد لهذه الوحدة');
+            grammarData = await res.json();
+        } catch(e) {
+            document.getElementById('quiz-container').innerHTML = `<div class="grammar-box" style="color:red;">⚠️ ${e.message}<br>يمكنك إضافة ملف grammar.json داخل مجلد الوحدة لعرض شرح القواعد.</div>`;
+            document.getElementById('submit-btn').style.display = 'none';
+            document.getElementById('next-btn').style.display = 'none';
+            return;
+        }
+        let html = `<div class="grammar-box">`;
+        html += `<h2>${grammarData.title || "📘 شرح قواعد الوحدة"}</h2>`;
+        if (grammarData.topics && grammarData.topics.length) {
+            grammarData.topics.forEach(topic => {
+                html += `<div style="margin-bottom:25px; border-bottom:1px solid #e9ecef; padding-bottom:15px;">`;
+                html += `<h3>${topic.name}</h3>`;
+                if (topic.rule) html += `<p><strong>📌 القاعدة:</strong> ${topic.rule}</p>`;
+                if (topic.form) html += `<p><strong>🔧 الصيغة:</strong> ${topic.form}</p>`;
+                if (topic.examples && topic.examples.length) {
+                    html += `<ul>`;
+                    topic.examples.forEach(ex => html += `<li>📌 ${ex}</li>`);
+                    html += `</ul>`;
+                }
+                if (topic.subtopics && topic.subtopics.length) {
+                    html += `<ul>`;
+                    topic.subtopics.forEach(sub => html += `<li><strong>${sub.word || sub.pattern || ''}:</strong> ${sub.meaning || sub.example || ''} — مثال: ${sub.example || ''}</li>`);
+                    html += `</ul>`;
+                }
+                if (topic.words && topic.words.length) {
+                    html += `<div class="word-list">`;
+                    topic.words.forEach(w => html += `<span>📖 ${w}</span>`);
+                    html += `</div>`;
+                }
+                html += `</div>`;
+            });
+        } else {
+            html += `<p>لا توجد تفاصيل قواعد لهذه الوحدة بعد. يمكنك إضافتها في ملف grammar.json.</p>`;
+        }
+        html += `</div>`;
+        document.getElementById('quiz-container').innerHTML = html;
+        document.getElementById('submit-btn').style.display = 'none';
+        document.getElementById('next-btn').style.display = 'none';
     }
 
     loadConfig();
