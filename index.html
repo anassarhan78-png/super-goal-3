@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Goal 3 – نظام وحدات قابل للتوسع</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', 'Tajawal', sans-serif;
+            background: linear-gradient(135deg, #1e5a3a, #0f2a1c);
+            min-height: 100vh;
+            padding: 20px;
+            direction: rtl;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+            border-radius: 32px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        /* تبويبات الوحدات (الأفقية) */
+        .unit-tabs {
+            display: flex;
+            background: #eaf7ed;
+            border-bottom: 2px solid #b8d9c2;
+            overflow-x: auto;
+        }
+        .unit-tab {
+            padding: 12px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            background: #eaf7ed;
+            color: #1e5a3a;
+            border-bottom: 3px solid transparent;
+            white-space: nowrap;
+        }
+        .unit-tab.active {
+            background: white;
+            border-bottom-color: #2b7a4b;
+            color: #2b7a4b;
+        }
+        /* التبويبات الفرعية (شامل، مفردات، كتابة) */
+        .sub-tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+        }
+        .sub-tab {
+            flex: 1;
+            text-align: center;
+            padding: 12px;
+            cursor: pointer;
+            background: #f8f9fa;
+            color: #2c3e6d;
+            font-weight: bold;
+        }
+        .sub-tab.active {
+            background: white;
+            border-bottom: 3px solid #2b7a4b;
+            color: #2b7a4b;
+        }
+        .content { padding: 25px; }
+        h2 { color: #1e5a3a; margin-bottom: 15px; }
+        .progress-area { margin-bottom: 20px; }
+        .question {
+            background: #fef5e8;
+            padding: 15px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .option {
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 10px 15px;
+            border-radius: 40px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+        }
+        .option.selected { background: #2b7a4b; color: white; }
+        .feedback { margin: 15px 0; padding: 12px; border-radius: 16px; }
+        .feedback.correct { background: #d4edda; color: #155724; }
+        .feedback.wrong { background: #f8d7da; color: #721c24; }
+        button {
+            background: #2b7a4b;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        .writing-box {
+            background: #fef9e6;
+            padding: 20px;
+            border-radius: 24px;
+        }
+        footer { text-align: center; margin-top: 20px; font-size: 0.75rem; }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="unit-tabs" id="unit-tabs"></div>
+    <div class="sub-tabs" id="sub-tabs" style="display:none;"></div>
+    <div class="content">
+        <h2 id="mode-title"></h2>
+        <div id="quiz-container"></div>
+        <div style="text-align:center; margin-top:20px;">
+            <button id="submit-btn" style="display:none;">إرسال الإجابة ✅</button>
+            <button id="next-btn" style="display:none;">التالي ➡️</button>
+        </div>
+        <footer>✨ نظام وحدات قابل للتوسع – أضف وحدة جديدة بإنشاء مجلد وإضافة اسمه في config.json ✨</footer>
+    </div>
+</div>
+
+<script>
+    let config = { units: [] };
+    let currentUnit = null;       // كائن الوحدة الحالية
+    let currentSubMode = 'full';  // 'full', 'vocab', 'writing'
+    let questions = [];
+    let currentIndex = 0, selectedAnswer = null, score = 0;
+
+    // تحميل التكوين أولاً
+    async function loadConfig() {
+        const res = await fetch('config.json');
+        config = await res.json();
+        renderUnitTabs();
+        // تفعيل أول وحدة افتراضياً
+        if (config.units.length) loadUnit(config.units[0]);
+    }
+
+    function renderUnitTabs() {
+        const container = document.getElementById('unit-tabs');
+        container.innerHTML = '';
+        config.units.forEach((unit, idx) => {
+            const tab = document.createElement('div');
+            tab.className = 'unit-tab';
+            if (idx === 0) tab.classList.add('active');
+            tab.innerText = unit.title;
+            tab.onclick = () => {
+                document.querySelectorAll('.unit-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                loadUnit(unit);
+            };
+            container.appendChild(tab);
+        });
+    }
+
+    async function loadUnit(unit) {
+        currentUnit = unit;
+        currentSubMode = 'full';
+        // إظهار التبويبات الفرعية
+        document.getElementById('sub-tabs').style.display = 'flex';
+        renderSubTabs();
+        await loadSubMode();
+    }
+
+    function renderSubTabs() {
+        const container = document.getElementById('sub-tabs');
+        container.innerHTML = `
+            <div class="sub-tab" data-mode="full">📚 شامل (قواعد + إملاء + قراءة)</div>
+            <div class="sub-tab" data-mode="vocab">📖 مفردات الوحدة</div>
+            <div class="sub-tab" data-mode="writing">✍️ الكتابة</div>
+        `;
+        document.querySelectorAll('.sub-tab').forEach(tab => {
+            tab.onclick = () => {
+                document.querySelectorAll('.sub-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                currentSubMode = tab.getAttribute('data-mode');
+                loadSubMode();
+            };
+        });
+        // تفعيل أول تبويب فرعي
+        document.querySelector('.sub-tab[data-mode="full"]').classList.add('active');
+    }
+
+    async function loadSubMode() {
+        if (currentSubMode === 'writing') {
+            await loadWritingSection();
+            return;
+        }
+        const fileName = (currentSubMode === 'full') ? 'questions.json' : 'vocabulary.json';
+        const filePath = `units/${currentUnit.id}/${fileName}`;
+        try {
+            const res = await fetch(filePath);
+            if (!res.ok) throw new Error(`الملف ${fileName} غير موجود للوحدة ${currentUnit.id}`);
+            questions = await res.json();
+            currentIndex = 0; score = 0;
+            renderQuizInterface();
+            showQuestion();
+            document.getElementById('submit-btn').style.display = 'inline-block';
+        } catch(err) {
+            document.getElementById('quiz-container').innerHTML = `<div style="color:red;">⚠️ ${err.message}</div>`;
+        }
+    }
+
+    function renderQuizInterface() {
+        document.getElementById('mode-title').innerHTML = `${currentUnit.title} – ${currentSubMode === 'full' ? 'اختبار شامل' : 'مفردات'}`;
+        document.getElementById('quiz-container').innerHTML = '<div id="quiz-area"></div><div id="feedback"></div>';
+        document.getElementById('submit-btn').style.display = 'inline-block';
+        document.getElementById('next-btn').style.display = 'none';
+    }
+
+    function showQuestion() {
+        const q = questions[currentIndex];
+        const container = document.getElementById('quiz-area');
+        let html = `<div class="question">${q.text}</div>`;
+        const letters = ['A','B','C','D'];
+        q.options.forEach((opt,i) => {
+            html += `<div class="option" data-letter="${letters[i]}">${letters[i]}. ${opt}</div>`;
+        });
+        container.innerHTML = html;
+        attachOptionEvents();
+        updateProgress();
+    }
+
+    function attachOptionEvents() {
+        document.querySelectorAll('.option').forEach(opt => {
+            opt.onclick = () => {
+                document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
+                opt.classList.add('selected');
+                selectedAnswer = opt.getAttribute('data-letter');
+            };
+        });
+    }
+
+    function updateProgress() {
+        const percent = ((currentIndex) / questions.length) * 100;
+        const progressHtml = `<div style="display:flex; justify-content:space-between;"><span>السؤال ${currentIndex+1} / ${questions.length}</span><span>⭐ النقاط: ${score}</span></div><div style="background:#ddd; border-radius:20px; height:8px;"><div style="background:#2b7a4b; width:${percent}%; height:8px; border-radius:20px;"></div></div>`;
+        document.getElementById('quiz-container').insertAdjacentHTML('afterbegin', progressHtml);
+    }
+
+    document.getElementById('submit-btn').onclick = () => {
+        if (!selectedAnswer) { alert('اختر إجابة'); return; }
+        const q = questions[currentIndex];
+        const isCorrect = (selectedAnswer === q.correct);
+        const fbDiv = document.getElementById('feedback');
+        if (isCorrect) {
+            score++;
+            fbDiv.innerHTML = `<div class="feedback correct">✅ صحيح! ${q.explanation[selectedAnswer]}</div>`;
+        } else {
+            fbDiv.innerHTML = `<div class="feedback wrong">❌ خطأ. ${q.explanation[selectedAnswer]}<br>✅ الصحيح: ${q.correct} — ${q.explanation[q.correct]}</div>`;
+        }
+        document.getElementById('submit-btn').style.display = 'none';
+        document.getElementById('next-btn').style.display = 'inline-block';
+        updateProgress();
+    };
+
+    document.getElementById('next-btn').onclick = () => {
+        currentIndex++;
+        if (currentIndex < questions.length) {
+            showQuestion();
+            document.getElementById('submit-btn').style.display = 'inline-block';
+            document.getElementById('next-btn').style.display = 'none';
+            document.getElementById('feedback').innerHTML = '';
+        } else {
+            document.getElementById('quiz-container').innerHTML = `<div style="text-align:center; padding:20px;"><h3>🎉 انتهى الاختبار</h3><p>الصحيحة: ${score} من ${questions.length}</p><button onclick="location.reload()">إعادة</button></div>`;
+            document.getElementById('submit-btn').style.display = 'none';
+            document.getElementById('next-btn').style.display = 'none';
+        }
+        updateProgress();
+    };
+
+    async function loadWritingSection() {
+        const filePath = `units/${currentUnit.id}/writing.json`;
+        let writingData = { prompts: [], model: "" };
+        try {
+            const res = await fetch(filePath);
+            if (res.ok) writingData = await res.json();
+        } catch(e) { console.log("لا يوجد ملف writing.json، سيتم استخدام النص الافتراضي"); }
+        const html = `
+            <div class="writing-box">
+                <h3>📝 موضوع الكتابة: ${writingData.prompts[0] || "السلوك الجيد والسلوك السيء"}</h3>
+                <p>${writingData.model || "اكتب فقرة عن السلوك السيء الذي يضايقك، موضحاً تأثيره على الآخرين، وسبب ضرورة تغييره."}</p>
+                <textarea id="student-writing" rows="6" style="width:100%; margin:15px 0; padding:10px; border-radius:16px;"></textarea>
+                <button id="save-writing">💾 حفظ مسودتك</button>
+                <div id="writing-feedback" style="margin-top:15px;"></div>
+            </div>
+        `;
+        document.getElementById('quiz-container').innerHTML = html;
+        document.getElementById('submit-btn').style.display = 'none';
+        document.getElementById('next-btn').style.display = 'none';
+        document.getElementById('save-writing').onclick = () => {
+            const text = document.getElementById('student-writing').value;
+            localStorage.setItem(`writing_${currentUnit.id}`, text);
+            document.getElementById('writing-feedback').innerHTML = '✅ تم حفظ كتابتك محلياً. يمكنك العودة إليها لاحقاً.';
+        };
+    }
+
+    loadConfig();
+</script>
+</body>
+</html>
