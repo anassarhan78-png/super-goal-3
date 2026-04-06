@@ -1,0 +1,88 @@
+{
+  "title": "دليل كتابة موضوع التعبير (Writing a Paragraph)",
+  "steps": [
+    {
+      "step": 1,
+      "title": "افهم المطلوب (Understand the prompt)",
+      "explanation": "اقرأ السؤال جيداً. ماذا يطلب منك؟ في هذا الدرس، المطلوب هو: 'اكتب فقرة عن السلوك الجيد والسلوك السيء'. يجب أن تذكر سلوكاً سيئاً واحداً على الأقل، وتشرح تأثيره، وتعطي رأيك."
+    },
+    {
+      "step": 2,
+      "title": "جمع الأفكار (Brainstorming)",
+      "explanation": "فكر في سلوك سيء تراه كثيراً. مثلاً: الأكل والفم مفتوح، أو مقاطعة الآخرين أثناء الكلام، أو استخدام الهاتف بصوت عالٍ. اكتب كلمتين أو ثلاث عن كل فكرة.",
+      "example": "مضغ الطعام والفم مفتوح → يسبب اشمئزاز الآخرين → يظهر قلة احترام → يجب التوقف عنه."
+    },
+    {
+      "step": 3,
+      "title": "هيكل الفقرة (Paragraph Structure)",
+      "explanation": "الفقرة الجيدة تتكون من 3 أجزاء:",
+      "substeps": [
+        "1. جملة افتتاحية (Topic sentence): تذكر الفكرة الرئيسية باختصار.",
+        "2. جمل تفصيلية (Supporting sentences): تشرح الفكرة، وتعطي أسباباً وأمثلة.",
+        "3. جملة ختامية (Concluding sentence): تلخص أو تعطي رأياً نهائياً."
+      ]
+    },
+    {
+      "step": 4,
+      "title": "اكتب المسودة الأولى (First draft)",
+      "explanation": "لا تقلق بشأن الأخطاء الآن. فقط اكتب الأفكار التي جمعتها. استخدم الكلمات البسيطة.",
+      "example_draft": "أسوأ سلوك سيء هو الأكل والفم مفتوح. هذا يجعل الناس يشعرون بالاشمئزاز. قد يتوقفون عن الأكل. يجب أن نغير هذه العادة لأنها تعطي انطباعاً سيئاً."
+    },
+    {
+      "step": 5,
+      "title": "حسّن فقرتك (Revise and Edit)",
+      "explanation": "اقرأ فقرتك. أضف كلمات ربط (also, because, for example). صحح الأخطاء الإملائية. تأكد من أن كل جملة مرتبطة بالفكرة الرئيسية."
+    },
+    {
+      "step": 6,
+      "title": "اكتب النسخة النهائية (Final copy)",
+      "explanation": "انسخ الفقرة بعد تحسينها بخط واضح أو اكتبها في المربع المخصص."
+    }
+  ],
+  "model_paragraph": {
+    "text": "The worst impolite behavior in my opinion is chewing with your mouth open. This habit makes other people feel disgusted and uncomfortable. They may even lose their appetite and stop eating. I think we should definitely change this bad habit because it leaves a bad impression on everyone around you. Nobody wants to see food flying out of your mouth during a meal. Being polite and respectful at the table is a sign of good manners.",
+    "analysis": [
+      "الجملة الافتتاحية: 'The worst impolite behavior in my opinion is chewing with your mouth open' – تذكر الموضوع بوضوح.",
+      "الجمل التفصيلية: الجمل 2 و 3 و 4 – تشرح التأثير على الآخرين وتقدم سبباً للتغيير.",
+      "الجملة الختامية: الجملة الأخيرة – تلخص الفكرة بأن الأدب على المائدة علامة على حسن الخلق."
+    ]
+  },
+  "guided_writing_questions": [
+    "ما هو السلوك السيء الذي تريد الكتابة عنه؟ (اذكره بوضوح في جملة افتتاحية)",
+    "كيف يشعر الآخرون عندما يرون هذا السلوك؟ (استخدم كلمات مثل: disgusted, uncomfortable, annoyed)",
+    "لماذا تعتقد أنه يجب تغيير هذه العادة؟ (قدم سبباً واحداً على الأقل)",
+    "ما هي النصيحة التي تقدمها لمن يفعل هذا السلوك؟"
+  ],
+  "common_mistakes": [
+    "❌ عدم وجود جملة افتتاحية: يجب أن تبدأ الفقرة بجملة توضح الموضوع.",
+    "❌ تكرار نفس الفكرة دون إضافة جديدة: حاول أن تقدم سبباً مختلفاً في كل جملة.",
+    "❌ نسيان الجملة الختامية: ختم الفقرة برأي أو خلاصة يجعلها أفضل.",
+    "❌ أخطاء في ترتيب الكلمات أو الإملاء: راجع فقرتك قبل تسليمها."
+  ],
+  "useful_vocabulary": {
+    "bad_behavior": [
+      "chewing with mouth open (مضغ والفم مفتوح)",
+      "interrupting (مقاطعة)",
+      "littering (رمي النفايات)",
+      "being late (التأخر)"
+    ],
+    "feelings": [
+      "disgusted (مشمئز)",
+      "uncomfortable (غير مرتاح)",
+      "annoyed (منزعج)",
+      "embarrassed (محرج)"
+    ],
+    "transition_words": [
+      "first of all",
+      "also",
+      "for example",
+      "because",
+      "therefore",
+      "in conclusion"
+    ]
+  },
+  "writing_task": {
+    "prompt": "اكتب فقرة من 5-7 جمل عن 'السلوك السيء الذي يضايقك أكثر'، موضحاً تأثيره على الآخرين ولماذا يجب تغييره.",
+    "place_to_write": "استخدم المساحة أدناه لكتابة فقرتك. يمكنك حفظها بالضغط على زر 'حفظ المسودة'."
+  }
+}
