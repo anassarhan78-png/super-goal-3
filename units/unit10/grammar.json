@@ -1,0 +1,67 @@
+{
+  "title": "📘 شرح قواعد الوحدة 10 (مبسط جداً)",
+  "topics": [
+    {
+      "name": "1. زمن المضارع التام (Present Perfect)",
+      "rule": "يُستخدم للتحدث عن أحداث حدثت في الماضي وغير محدد زمنها، أو لها علاقة بالحاضر.",
+      "form": "has/have + past participle (التصريف الثالث)",
+      "examples": [
+        "I have visited three universities. (لقد زرت ثلاث جامعات)",
+        "She has just won the match. (لقد فازت للتو بالمباراة)",
+        "They have already arrived. (لقد وصلوا بالفعل)"
+      ],
+      "tips": "مع I, you, we, they → have / مع he, she, it → has"
+    },
+    {
+      "name": "2. استخدام Already, Yet, Just, Since, For",
+      "rule": "كلمات تستخدم مع المضارع التام لتحديد زمن الحدث.",
+      "subtopics": [
+        { "word": "already", "meaning": "بالفعل (للإثبات)", "example": "I have already eaten." },
+        { "word": "yet", "meaning": "حتى الآن (للنفي والسؤال)", "example": "Haven't you finished yet?" },
+        { "word": "just", "meaning": "لتوّي (حدث قبل لحظات)", "example": "He has just left." },
+        { "word": "since", "meaning": "منذ (نقطة بداية)", "example": "I have lived here since 2020." },
+        { "word": "for", "meaning": "لمدة (فترة زمنية)", "example": "I have waited for two hours." }
+      ]
+    },
+    {
+      "name": "3. الفعل + gerund (verb + ing) بعد أفعال معينة",
+      "rule": "بعد هذه الأفعال نضيف ing للفعل الذي يليها: miss, can't stand, enjoy, imagine, give up, avoid, suggest, finish, keep, mind",
+      "examples": [
+        "I miss going to the beach. (أشتاق للذهاب إلى الشاطئ)",
+        "I can't stand waiting for the bus. (لا أطيق انتظار الباص)",
+        "He enjoys playing tennis. (يستمتع بلعب التنس)",
+        "You should give up smoking. (يجب أن تقلع عن التدخين)"
+      ]
+    },
+    {
+      "name": "4. الأفعال المركبة (Two-word verbs / Phrasal verbs)",
+      "rule": "فعل + حرف جر (particle) يعطيان معنى جديداً.",
+      "examples": [
+        "turn down → يخفض (الصوت أو الحرارة): Can you turn down the TV?",
+        "turn off → يطفئ: Turn off the light.",
+        "turn up → يرفع (الصوت): Please turn up the music.",
+        "turn on → يشغل: Turn on the computer."
+      ]
+    },
+    {
+      "name": "5. So / Such ... that (لدرجة أن)",
+      "rule": "تُستخدم للتعبير عن نتيجة مفرطة.",
+      "subtopics": [
+        { "pattern": "so + صفة + that", "example": "It was so dark that I couldn't see." },
+        { "pattern": "such a + صفة + اسم مفرد + that", "example": "It was such a hot day that we stayed home." },
+        { "pattern": "so many + اسم جمع + that", "example": "I have so many friends that I never get bored." },
+        { "pattern": "so much + اسم غير معدود + that", "example": "He has so much money that he can buy anything." }
+      ]
+    },
+    {
+      "name": "6. كلمات صعبة في الإملاء (Spelling)",
+      "rule": "احفظ هذه الكلمات جيداً لأنها كثيرة الخطأ:",
+      "words": [
+        "annoy (يضايق)", "irritate (يغيظ)", "avoid (يتجنب)", "imagine (يتخيل)",
+        "splash (يرش)", "suggest (يقترح)", "dirty (قذر)", "complaint (شكوى)",
+        "nephew (ابن الأخ)", "scissors (مقص)", "toothpaste (معجون أسنان)",
+        "mirror (مرآة)", "shampoo (شامبو)", "liquid (سائل)"
+      ]
+    }
+  ]
+}
