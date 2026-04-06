@@ -156,9 +156,9 @@
     function renderSubTabs() {
         const container = document.getElementById('sub-tabs');
         container.innerHTML = `
-            <div class="sub-tab" data-mode="full">📚 شامل</div>
-            <div class="sub-tab" data-mode="vocab">📖 مفردات</div>
-            <div class="sub-tab" data-mode="writing">✍️ كتابة</div>
+            <div class="sub-tab" data-mode="full">📚 شامل (قواعد + إملاء + قراءة)</div>
+            <div class="sub-tab" data-mode="vocab">📖 مفردات الوحدة</div>
+            <div class="sub-tab" data-mode="writing">✍️ الكتابة</div>
         `;
         document.querySelectorAll('.sub-tab').forEach(tab => {
             tab.onclick = () => {
@@ -180,7 +180,7 @@
         const filePath = `units/${currentUnit.id}/${fileName}`;
         try {
             const res = await fetch(filePath);
-            if (!res.ok) throw new Error(`الملف ${fileName} غير موجود`);
+            if (!res.ok) throw new Error(`الملف ${fileName} غير موجود للوحدة ${currentUnit.id}`);
             questions = await res.json();
             currentIndex = 0; score = 0;
             renderQuizInterface();
@@ -224,7 +224,12 @@
     function updateProgress() {
         const percent = ((currentIndex) / questions.length) * 100;
         const progressHtml = `<div style="display:flex; justify-content:space-between;"><span>السؤال ${currentIndex+1} / ${questions.length}</span><span>⭐ النقاط: ${score}</span></div><div style="background:#ddd; border-radius:20px; height:8px;"><div style="background:#2b7a4b; width:${percent}%; height:8px; border-radius:20px;"></div></div>`;
-        document.getElementById('quiz-container').insertAdjacentHTML('afterbegin', progressHtml);
+        const existing = document.querySelector('.progress-area');
+        if (existing) existing.remove();
+        const div = document.createElement('div');
+        div.className = 'progress-area';
+        div.innerHTML = progressHtml;
+        document.getElementById('quiz-container').insertBefore(div, document.getElementById('quiz-area'));
     }
 
     document.getElementById('submit-btn').onclick = () => {
@@ -260,20 +265,20 @@
 
     async function loadWritingSection() {
         const filePath = `units/${currentUnit.id}/writing.json`;
-        let writingData = { prompts: [], model: "", tips: [] };
+        let writingData = { prompts: [], model: "" };
         try {
             const res = await fetch(filePath);
             if (res.ok) writingData = await res.json();
         } catch(e) { console.log("لا يوجد ملف writing.json"); }
-        let html = `<div class="writing-box"><h3>📝 موضوع الكتابة</h3>`;
-        if (writingData.steps) {
-            html += `<div>${JSON.stringify(writingData.steps)}</div>`;
-        } else {
-            html += `<p>${writingData.prompts ? writingData.prompts.join('<br>') : 'اكتب فقرة عن السلوك الجيد والسلوك السيء.'}</p>`;
-        }
-        html += `<textarea id="student-writing" rows="6" style="width:100%; margin:15px 0; padding:10px; border-radius:16px;"></textarea>
-                 <button id="save-writing">💾 حفظ مسودتك</button>
-                 <div id="writing-feedback" style="margin-top:15px;"></div></div>`;
+        const html = `
+            <div class="writing-box">
+                <h3>📝 ${writingData.title || "دليل كتابة الموضوع"}</h3>
+                ${writingData.steps ? writingData.steps.map(step => `<div style="margin-bottom:15px;"><strong>الخطوة ${step.step}: ${step.title}</strong><br>${step.explanation}</div>`).join('') : `<p>${writingData.prompts ? writingData.prompts.join('<br>') : "اكتب فقرة عن السلوك الجيد والسلوك السيء"}</p>`}
+                <textarea id="student-writing" rows="6" style="width:100%; margin:15px 0; padding:10px; border-radius:16px;"></textarea>
+                <button id="save-writing">💾 حفظ مسودتك</button>
+                <div id="writing-feedback" style="margin-top:15px;"></div>
+            </div>
+        `;
         document.getElementById('quiz-container').innerHTML = html;
         document.getElementById('submit-btn').style.display = 'none';
         document.getElementById('next-btn').style.display = 'none';
