@@ -1,364 +1,364 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Goal 3 – نظام وحدات قابل للتوسع</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', 'Tajawal', sans-serif;
-            background: linear-gradient(135deg, #1e5a3a, #0f2a1c);
-            min-height: 100vh;
-            padding: 20px;
-            direction: rtl;
+{
+  "title": "📘 شرح قواعد الوحدة 10 (مبسط جداً - موسع)",
+  "topics": [
+    {
+      "name": "🔷 1. زمن المضارع التام (Present Perfect Tense)",
+      "rule": "يُستخدم هذا الزمن للتحدث عن أحداث وقعت في الماضي ولكن وقت حدوثها غير محدد، أو أحداث لها ارتباط بالحاضر (نتيجة أو استمرارية).",
+      "form": {
+        "positive": "الفاعل + have/has + التصريف الثالث (past participle)",
+        "negative": "الفاعل + haven't / hasn't + التصريف الثالث",
+        "question": "Have/Has + الفاعل + التصريف الثالث؟"
+      },
+      "examples": {
+        "positive": [
+          "I have visited Paris. (لقد زرت باريس – لا نعرف متى بالضبط)",
+          "She has finished her homework. (لقد أنهت واجبها – النتيجة: هي جاهزة الآن)"
+        ],
+        "negative": [
+          "They haven't eaten yet. (لم يأكلوا بعد – ما زالوا جائعين الآن)",
+          "He hasn't called me. (لم يتصل بي – ما زلت أنتظر)"
+        ],
+        "question": [
+          "Have you ever been to London? (هل سبق أن زرت لندن؟)",
+          "Has she seen that movie? (هل شاهدت ذلك الفيلم؟)"
+        ]
+      },
+      "when_to_use": [
+        "✅ تجربة أو حدث في الماضي دون ذكر وقت محدد (ever, never, before).",
+        "✅ تغيير أو نتيجة حدثت مؤخراً ولها تأثير على الحاضر.",
+        "✅ إنجازات شخصية أو إنسانية (بدون وقت محدد).",
+        "✅ فترة زمنية لم تنتهِ بعد (today, this week, this month).",
+        "✅ مع already, yet, just, since, for (سيأتي شرحها)."
+      ],
+      "common_mistakes": [
+        "❌ خطأ: I have seen him yesterday. (لا نستخدم زمنين معاً)",
+        "✅ صحيح: I saw him yesterday. (الماضي البسيط مع وقت محدد)",
+        "❌ خطأ: She has went home.",
+        "✅ صحيح: She has gone home. (التصريف الثالث من go هو gone)"
+      ],
+      "tips_for_weak_students": [
+        "💡 تذكر: have مع (I, you, we, they) / has مع (he, she, it).",
+        "💡 التصريف الثالث هو التصريف الذي يأتي بعد have/has. الأفعال المنتظمة نضيف لها ed، وغير المنتظمة تحفظ عن ظهر قلب.",
+        "💡 إذا رأيت كلمات مثل: ever, never, already, yet, just, since, for، فهي إشارات قوية لاستخدام المضارع التام."
+      ]
+    },
+    {
+      "name": "🔷 2. أدوات المضارع التام: Already, Yet, Just, Since, For",
+      "rule": "هذه الكلمات تساعدنا على تحديد زمن الحدث أو موقعه بدقة أكبر داخل المضارع التام.",
+      "subtopics": [
+        {
+          "word": "already",
+          "meaning": "بالفعل",
+          "usage": "تُستخدم في الجمل المثبتة (الإيجاب) للتعبير عن حدث تم قبل الوقت المتوقع.",
+          "position": "بين have/has والتصريف الثالث (I have already eaten).",
+          "examples": [
+            "I have already finished my work. (لقد أنهيت عملي بالفعل – قبل الوقت المتوقع)",
+            "She has already called him. (لقد اتصلت به بالفعل)"
+          ]
+        },
+        {
+          "word": "yet",
+          "meaning": "حتى الآن (لم يحدث بعد)",
+          "usage": "تُستخدم في الجمل المنفية والأسئلة. تعني أن الحدث لم يحدث ولكن من المتوقع أن يحدث.",
+          "position": "في نهاية الجملة (I haven't finished yet / Have you finished yet?).",
+          "examples": [
+            "I haven't seen him yet. (لم أره حتى الآن – لكني قد أراه قريباً)",
+            "Has she arrived yet? (هل وصلت حتى الآن؟)"
+          ]
+        },
+        {
+          "word": "just",
+          "meaning": "لتوّي (منذ لحظات قليلة)",
+          "usage": "يستخدم للإثبات، ويعني أن الحدث حدث قبل وقت قصير جداً.",
+          "position": "بين have/has والتصريف الثالث (I have just eaten).",
+          "examples": [
+            "They have just left. (لقد غادروا لتوّهم)",
+            "He has just arrived. (لقد وصل لتوّه)"
+          ]
+        },
+        {
+          "word": "since",
+          "meaning": "منذ (نقطة بداية زمنية)",
+          "usage": "يتبعه وقت محدد (ساعة، يوم، شهر، سنة).",
+          "examples": [
+            "I have lived here since 2015. (أسكن هنا منذ 2015)",
+            "She has been sick since Monday. (هي مريضة منذ الإثنين)"
+          ]
+        },
+        {
+          "word": "for",
+          "meaning": "لمدة (فترة زمنية)",
+          "usage": "يتبعه مدة زمنية (ساعتين، 3 أيام، أسبوع).",
+          "examples": [
+            "I have waited for two hours. (انتظرت لمدة ساعتين)",
+            "They have known each other for ten years. (يعرفان بعضهما منذ عشر سنوات)"
+          ]
         }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            background: white;
-            border-radius: 32px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-            overflow: hidden;
+      ],
+      "comparison_table": [
+        "✅ already → جملة مثبتة (I have already done it.)",
+        "✅ yet → نفي أو سؤال (I haven't done it yet / Have you done it yet?)",
+        "✅ just → حدث قريب جداً (I have just done it.)",
+        "✅ since → نقطة بداية (since Monday / since 2020)",
+        "✅ for → فترة زمنية (for two hours / for a week)"
+      ]
+    },
+    {
+      "name": "🔷 3. الأفعال + gerund (verb + ing) بعد أفعال معينة",
+      "rule": "بعد بعض الأفعال، يجب أن نضيف ing إلى الفعل الذي يليها (gerund). هذه الأفعال يجب حفظها لأنها لا تتبع المصدر (to + verb).",
+      "verbs_list": [
+        "miss (يفتقد / يشتاق إلى)",
+        "can't stand (لا يطيق / لا يحتمل)",
+        "enjoy (يستمتع بـ)",
+        "imagine (يتخيل)",
+        "give up (يقلع عن / يتخلى عن)",
+        "avoid (يتجنب)",
+        "suggest (يقترح)",
+        "finish (ينهي)",
+        "mind (يمانع)",
+        "keep (يستمر في)"
+      ],
+      "examples": [
+        "I miss playing with my friends. (أشتاق للعب مع أصدقائي)",
+        "I can't stand waiting in long lines. (لا أطيق الانتظار في طوابير طويلة)",
+        "He enjoys reading novels. (يستمتع بقراءة الروايات)",
+        "Imagine living on the moon! (تخيل العيش على القمر!)",
+        "You should give up smoking. (يجب أن تقلع عن التدخين)",
+        "She avoids eating junk food. (تتجنب أكل الوجبات السريعة)",
+        "I suggest taking a break. (أقترح أخذ استراحة)",
+        "Have you finished cleaning your room? (هل انتهيت من تنظيف غرفتك؟)",
+        "Do you mind closing the door? (هل تمانع في إغلاق الباب؟)",
+        "Keep walking straight. (استمر في المشي بشكل مستقيم)"
+      ],
+      "common_mistakes": [
+        "❌ I miss to play with my friends.",
+        "✅ I miss playing with my friends.",
+        "❌ He enjoys to read novels.",
+        "✅ He enjoys reading novels."
+      ]
+    },
+    {
+      "name": "🔷 4. الأفعال المركبة (Phrasal Verbs) من الوحدة 10",
+      "rule": "هي أفعال تتكون من فعل + حرف جر (particle)، ويكون لها معنى مختلف عن معنى الفعل الأصلي.",
+      "phrasal_verbs": [
+        {
+          "verb": "turn down",
+          "meaning": "يخفض (الصوت أو الحرارة)",
+          "example": "Can you turn down the TV? It's too loud."
+        },
+        {
+          "verb": "turn off",
+          "meaning": "يطفئ (جهازاً كهربائياً)",
+          "example": "Turn off the light before you leave."
+        },
+        {
+          "verb": "turn on",
+          "meaning": "يشغل",
+          "example": "Please turn on the computer."
+        },
+        {
+          "verb": "turn up",
+          "meaning": "يرفع (الصوت)",
+          "example": "Turn up the music, I love this song!"
+        },
+        {
+          "verb": "give up",
+          "meaning": "يستسلم / يقلع عن",
+          "example": "Don't give up! You can do it."
         }
-        .unit-tabs {
-            display: flex;
-            background: #eaf7ed;
-            border-bottom: 2px solid #b8d9c2;
-            overflow-x: auto;
+      ],
+      "grammar_note": "مع هذه الأفعال، إذا كان المفعول به ضميراً (it, them, me, him, her, us, you)، فيجب أن يأتي بين الفعل والحرف. مثال: Turn it down (ليس Turn down it)."
+    },
+    {
+      "name": "🔷 5. قاعدة So / Such ... that (لدرجة أن)",
+      "rule": "تُستخدم للتعبير عن نتيجة مفرطة (سبب ونتيجة قوية).",
+      "patterns": [
+        {
+          "pattern": "so + صفة + that",
+          "meaning": "لدرجة أن... (مع صفة فقط)",
+          "example": "It was so hot that we stayed home. (كان الجو حاراً لدرجة أننا بقينا في المنزل)"
+        },
+        {
+          "pattern": "such a + صفة + اسم مفرد + that",
+          "meaning": "لدرجة أن... (مع اسم مفرد)",
+          "example": "It was such a hot day that we stayed home. (كان يوماً حاراً لدرجة أننا بقينا في المنزل)"
+        },
+        {
+          "pattern": "so many + اسم جمع + that",
+          "meaning": "مع الأسماء المعدودة الجمع",
+          "example": "I have so many friends that I never get bored. (لدي أصدقاء كثيرون لدرجة أنني لا أشعر بالملل أبداً)"
+        },
+        {
+          "pattern": "so much + اسم غير معدود + that",
+          "meaning": "مع الأسماء غير المعدودة",
+          "example": "He has so much money that he can buy anything. (لديه مال كثير لدرجة أنه يستطيع شراء أي شيء)"
         }
-        .unit-tab {
-            padding: 12px 20px;
-            font-weight: bold;
-            cursor: pointer;
-            background: #eaf7ed;
-            color: #1e5a3a;
-            border-bottom: 3px solid transparent;
-            white-space: nowrap;
-        }
-        .unit-tab.active {
-            background: white;
-            border-bottom-color: #2b7a4b;
-            color: #2b7a4b;
-        }
-        .sub-tabs {
-            display: flex;
-            background: #f8f9fa;
-            border-bottom: 1px solid #ddd;
-        }
-        .sub-tab {
-            flex: 1;
-            text-align: center;
-            padding: 12px;
-            cursor: pointer;
-            background: #f8f9fa;
-            color: #2c3e6d;
-            font-weight: bold;
-        }
-        .sub-tab.active {
-            background: white;
-            border-bottom: 3px solid #2b7a4b;
-            color: #2b7a4b;
-        }
-        .content { padding: 25px; }
-        h2 { color: #1e5a3a; margin-bottom: 15px; }
-        h3 { color: #2b7a4b; margin: 15px 0 10px; }
-        .progress-area { margin-bottom: 20px; }
-        .question {
-            background: #fef5e8;
-            padding: 15px;
-            border-radius: 20px;
-            margin-bottom: 20px;
-            font-weight: bold;
-        }
-        .option {
-            background: #f8f9fa;
-            margin: 10px 0;
-            padding: 10px 15px;
-            border-radius: 40px;
-            cursor: pointer;
-            border: 1px solid #ddd;
-        }
-        .option.selected { background: #2b7a4b; color: white; }
-        .feedback { margin: 15px 0; padding: 12px; border-radius: 16px; }
-        .feedback.correct { background: #d4edda; color: #155724; }
-        .feedback.wrong { background: #f8d7da; color: #721c24; }
-        button {
-            background: #2b7a4b;
-            color: white;
-            border: none;
-            padding: 8px 20px;
-            border-radius: 30px;
-            cursor: pointer;
-        }
-        .writing-box, .grammar-box {
-            background: #fef9e6;
-            padding: 20px;
-            border-radius: 24px;
-        }
-        .grammar-box ul, .grammar-box li {
-            margin-right: 20px;
-            line-height: 1.6;
-        }
-        .word-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 10px;
-        }
-        .word-list span {
-            background: #e9ecef;
-            padding: 5px 12px;
-            border-radius: 30px;
-            font-size: 0.9rem;
-        }
-        footer { text-align: center; margin-top: 20px; font-size: 0.75rem; }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-<div class="container">
-    <div class="unit-tabs" id="unit-tabs"></div>
-    <div class="sub-tabs" id="sub-tabs" style="display:none;"></div>
-    <div class="content">
-        <h2 id="mode-title"></h2>
-        <div id="quiz-container"></div>
-        <div style="text-align:center; margin-top:20px;">
-            <button id="submit-btn" style="display:none;">إرسال الإجابة ✅</button>
-            <button id="next-btn" style="display:none;">التالي ➡️</button>
-        </div>
-        <footer>✨ نظام وحدات قابل للتوسع – أضف وحدة جديدة بإنشاء مجلد وإضافة اسمه في config.json ✨</footer>
-    </div>
-</div>
-
-<script>
-    let config = { units: [] };
-    let currentUnit = null;
-    let currentSubMode = 'full';
-    let questions = [];
-    let currentIndex = 0, selectedAnswer = null, score = 0;
-
-    async function loadConfig() {
-        const res = await fetch('config.json');
-        config = await res.json();
-        renderUnitTabs();
-        if (config.units.length) loadUnit(config.units[0]);
+      ],
+      "examples_more": [
+        "The movie was so boring that I fell asleep.",
+        "She is such a kind person that everyone loves her.",
+        "There were so many people that we couldn't find a seat.",
+        "There is so much noise that I can't concentrate."
+      ]
+    },
+    {
+      "name": "🔷 6. كلمات الإملاء الصعبة (Spelling) من الوحدة 10",
+      "words_list": [
+        "annoy (يضايق)",
+        "irritate (يغيظ)",
+        "avoid (يتجنب)",
+        "imagine (يتخيل)",
+        "splash (يرش بالماء)",
+        "suggest (يقترح)",
+        "dirty (قذر)",
+        "complaint (شكوى)",
+        "nephew (ابن الأخ / ابن الأخت)",
+        "scissors (مقص)",
+        "toothpaste (معجون أسنان)",
+        "mirror (مرآة)",
+        "shampoo (شامبو)",
+        "liquid (سائل)"
+      ],
+      "spelling_tips": [
+        "💡 annoy → حرفا n و o ثم y",
+        "💡 irritate → حرف i مكرر ثم r ثم i ثم tate",
+        "💡 avoid → a + v + oid",
+        "💡 imagine → i + m + a + g + i + n + e",
+        "💡 splash → s + p + l + a + s + h",
+        "💡 suggest → s + u + g + g + e + s + t (حرفا g مكرران)",
+        "💡 dirty → d + i + r + t + y",
+        "💡 complaint → c + o + m + p + l + a + i + n + t",
+        "💡 nephew → n + e + p + h + e + w",
+        "💡 scissors → s + c + i + s + s + o + r + s",
+        "💡 toothpaste → tooth + paste",
+        "💡 mirror → m + i + r + r + o + r (حرف r مكرر)",
+        "💡 shampoo → s + h + a + m + p + o + o (حرف o مكرر)",
+        "💡 liquid → l + i + q + u + i + d"
+      ]
     }
-
-    function renderUnitTabs() {
-        const container = document.getElementById('unit-tabs');
-        container.innerHTML = '';
-        config.units.forEach((unit, idx) => {
-            const tab = document.createElement('div');
-            tab.className = 'unit-tab';
-            if (idx === 0) tab.classList.add('active');
-            tab.innerText = unit.title;
-            tab.onclick = () => {
-                document.querySelectorAll('.unit-tab').forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-                loadUnit(unit);
-            };
-            container.appendChild(tab);
-        });
-    }
-
-    async function loadUnit(unit) {
-        currentUnit = unit;
-        currentSubMode = 'full';
-        document.getElementById('sub-tabs').style.display = 'flex';
-        renderSubTabs();
-        await loadSubMode();
-    }
-
-    function renderSubTabs() {
-        const container = document.getElementById('sub-tabs');
-        container.innerHTML = `
-            <div class="sub-tab" data-mode="full">📚 شامل (قواعد + إملاء + قراءة)</div>
-            <div class="sub-tab" data-mode="vocab">📖 مفردات الوحدة</div>
-            <div class="sub-tab" data-mode="writing">✍️ الكتابة</div>
-            <div class="sub-tab" data-mode="grammar">📘 شرح القواعد</div>
-        `;
-        document.querySelectorAll('.sub-tab').forEach(tab => {
-            tab.onclick = () => {
-                document.querySelectorAll('.sub-tab').forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-                currentSubMode = tab.getAttribute('data-mode');
-                loadSubMode();
-            };
-        });
-        document.querySelector('.sub-tab[data-mode="full"]').classList.add('active');
-    }
-
-    async function loadSubMode() {
-        if (currentSubMode === 'writing') {
-            await loadWritingSection();
-            return;
-        }
-        if (currentSubMode === 'grammar') {
-            await loadGrammarSection();
-            return;
-        }
-        const fileName = (currentSubMode === 'full') ? 'questions.json' : 'vocabulary.json';
-        const filePath = `units/${currentUnit.id}/${fileName}`;
-        try {
-            const res = await fetch(filePath);
-            if (!res.ok) throw new Error(`الملف ${fileName} غير موجود للوحدة ${currentUnit.id}`);
-            questions = await res.json();
-            currentIndex = 0; score = 0;
-            renderQuizInterface();
-            showQuestion();
-            document.getElementById('submit-btn').style.display = 'inline-block';
-        } catch(err) {
-            document.getElementById('quiz-container').innerHTML = `<div style="color:red;">⚠️ ${err.message}</div>`;
-        }
-    }
-
-    function renderQuizInterface() {
-        document.getElementById('mode-title').innerHTML = `${currentUnit.title} – ${currentSubMode === 'full' ? 'اختبار شامل' : 'مفردات'}`;
-        document.getElementById('quiz-container').innerHTML = '<div id="quiz-area"></div><div id="feedback"></div>';
-        document.getElementById('submit-btn').style.display = 'inline-block';
-        document.getElementById('next-btn').style.display = 'none';
-    }
-
-    function showQuestion() {
-        const q = questions[currentIndex];
-        const container = document.getElementById('quiz-area');
-        let html = `<div class="question">${q.text}</div>`;
-        const letters = ['A','B','C','D'];
-        q.options.forEach((opt,i) => {
-            html += `<div class="option" data-letter="${letters[i]}">${letters[i]}. ${opt}</div>`;
-        });
-        container.innerHTML = html;
-        attachOptionEvents();
-        updateProgress();
-    }
-
-    function attachOptionEvents() {
-        document.querySelectorAll('.option').forEach(opt => {
-            opt.onclick = () => {
-                document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
-                opt.classList.add('selected');
-                selectedAnswer = opt.getAttribute('data-letter');
-            };
-        });
-    }
-
-    function updateProgress() {
-        const percent = ((currentIndex) / questions.length) * 100;
-        const progressHtml = `<div style="display:flex; justify-content:space-between;"><span>السؤال ${currentIndex+1} / ${questions.length}</span><span>⭐ النقاط: ${score}</span></div><div style="background:#ddd; border-radius:20px; height:8px;"><div style="background:#2b7a4b; width:${percent}%; height:8px; border-radius:20px;"></div></div>`;
-        const existing = document.querySelector('.progress-area');
-        if (existing) existing.remove();
-        const div = document.createElement('div');
-        div.className = 'progress-area';
-        div.innerHTML = progressHtml;
-        document.getElementById('quiz-container').insertBefore(div, document.getElementById('quiz-area'));
-    }
-
-    document.getElementById('submit-btn').onclick = () => {
-        if (!selectedAnswer) { alert('اختر إجابة'); return; }
-        const q = questions[currentIndex];
-        const isCorrect = (selectedAnswer === q.correct);
-        const fbDiv = document.getElementById('feedback');
-        if (isCorrect) {
-            score++;
-            fbDiv.innerHTML = `<div class="feedback correct">✅ صحيح! ${q.explanation[selectedAnswer]}</div>`;
-        } else {
-            fbDiv.innerHTML = `<div class="feedback wrong">❌ خطأ. ${q.explanation[selectedAnswer]}<br>✅ الصحيح: ${q.correct} — ${q.explanation[q.correct]}</div>`;
-        }
-        document.getElementById('submit-btn').style.display = 'none';
-        document.getElementById('next-btn').style.display = 'inline-block';
-        updateProgress();
-    };
-
-    document.getElementById('next-btn').onclick = () => {
-        currentIndex++;
-        if (currentIndex < questions.length) {
-            showQuestion();
-            document.getElementById('submit-btn').style.display = 'inline-block';
-            document.getElementById('next-btn').style.display = 'none';
-            document.getElementById('feedback').innerHTML = '';
-        } else {
-            document.getElementById('quiz-container').innerHTML = `<div style="text-align:center; padding:20px;"><h3>🎉 انتهى الاختبار</h3><p>الصحيحة: ${score} من ${questions.length}</p><button onclick="location.reload()">إعادة</button></div>`;
-            document.getElementById('submit-btn').style.display = 'none';
-            document.getElementById('next-btn').style.display = 'none';
-        }
-        updateProgress();
-    };
-
-    async function loadWritingSection() {
-        const filePath = `units/${currentUnit.id}/writing.json`;
-        let writingData = { prompts: [], model: "" };
-        try {
-            const res = await fetch(filePath);
-            if (res.ok) writingData = await res.json();
-        } catch(e) { console.log("لا يوجد ملف writing.json"); }
-        const html = `
-            <div class="writing-box">
-                <h3>📝 ${writingData.title || "دليل كتابة الموضوع"}</h3>
-                ${writingData.steps ? writingData.steps.map(step => `<div style="margin-bottom:15px;"><strong>الخطوة ${step.step}: ${step.title}</strong><br>${step.explanation}</div>`).join('') : `<p>${writingData.prompts ? writingData.prompts.join('<br>') : "اكتب فقرة عن السلوك الجيد والسلوك السيء"}</p>`}
-                <textarea id="student-writing" rows="6" style="width:100%; margin:15px 0; padding:10px; border-radius:16px;"></textarea>
-                <button id="save-writing">💾 حفظ مسودتك</button>
-                <div id="writing-feedback" style="margin-top:15px;"></div>
-            </div>
-        `;
-        document.getElementById('quiz-container').innerHTML = html;
-        document.getElementById('submit-btn').style.display = 'none';
-        document.getElementById('next-btn').style.display = 'none';
-        document.getElementById('save-writing').onclick = () => {
-            const text = document.getElementById('student-writing').value;
-            localStorage.setItem(`writing_${currentUnit.id}`, text);
-            document.getElementById('writing-feedback').innerHTML = '✅ تم حفظ كتابتك محلياً.';
-        };
-    }
-
-    async function loadGrammarSection() {
-        const filePath = `units/${currentUnit.id}/grammar.json`;
-        let grammarData = {};
-        try {
-            const res = await fetch(filePath);
-            if (!res.ok) throw new Error('لا يوجد ملف شرح القواعد لهذه الوحدة');
-            grammarData = await res.json();
-        } catch(e) {
-            document.getElementById('quiz-container').innerHTML = `<div class="grammar-box" style="color:red;">⚠️ ${e.message}<br>يمكنك إضافة ملف grammar.json داخل مجلد الوحدة لعرض شرح القواعد.</div>`;
-            document.getElementById('submit-btn').style.display = 'none';
-            document.getElementById('next-btn').style.display = 'none';
-            return;
-        }
-        let html = `<div class="grammar-box">`;
-        html += `<h2>${grammarData.title || "📘 شرح قواعد الوحدة"}</h2>`;
-        if (grammarData.topics && grammarData.topics.length) {
-            grammarData.topics.forEach(topic => {
-                html += `<div style="margin-bottom:25px; border-bottom:1px solid #e9ecef; padding-bottom:15px;">`;
-                html += `<h3>${topic.name}</h3>`;
-                if (topic.rule) html += `<p><strong>📌 القاعدة:</strong> ${topic.rule}</p>`;
-                if (topic.form) html += `<p><strong>🔧 الصيغة:</strong> ${topic.form}</p>`;
-                if (topic.examples && topic.examples.length) {
-                    html += `<ul>`;
-                    topic.examples.forEach(ex => html += `<li>📌 ${ex}</li>`);
-                    html += `</ul>`;
-                }
-                if (topic.subtopics && topic.subtopics.length) {
-                    html += `<ul>`;
-                    topic.subtopics.forEach(sub => html += `<li><strong>${sub.word || sub.pattern || ''}:</strong> ${sub.meaning || sub.example || ''} — مثال: ${sub.example || ''}</li>`);
-                    html += `</ul>`;
-                }
-                if (topic.words && topic.words.length) {
-                    html += `<div class="word-list">`;
-                    topic.words.forEach(w => html += `<span>📖 ${w}</span>`);
-                    html += `</div>`;
-                }
-                html += `</div>`;
-            });
-        } else {
-            html += `<p>لا توجد تفاصيل قواعد لهذه الوحدة بعد. يمكنك إضافتها في ملف grammar.json.</p>`;
-        }
-        html += `</div>`;
-        document.getElementById('quiz-container').innerHTML = html;
-        document.getElementById('submit-btn').style.display = 'none';
-        document.getElementById('next-btn').style.display = 'none';
-    }
-
-    loadConfig();
-</script>
-</body>
-</html>
+  ],
+  "irregular_verbs_full_list": [
+    { "base": "be", "past": "was/were", "past_participle": "been", "meaning": "يكون", "example": "I have been to London." },
+    { "base": "beat", "past": "beat", "past_participle": "beaten", "meaning": "يضرب / يهزم", "example": "He has beaten the champion." },
+    { "base": "become", "past": "became", "past_participle": "become", "meaning": "يصبح", "example": "She has become a doctor." },
+    { "base": "begin", "past": "began", "past_participle": "begun", "meaning": "يبدأ", "example": "The show has begun." },
+    { "base": "bend", "past": "bent", "past_participle": "bent", "meaning": "يثني", "example": "He has bent the metal." },
+    { "base": "bet", "past": "bet", "past_participle": "bet", "meaning": "يراهن", "example": "I have bet on the wrong horse." },
+    { "base": "bite", "past": "bit", "past_participle": "bitten", "meaning": "يعض", "example": "The dog has bitten him." },
+    { "base": "blow", "past": "blew", "past_participle": "blown", "meaning": "ينفخ / يهب", "example": "The wind has blown the leaves away." },
+    { "base": "break", "past": "broke", "past_participle": "broken", "meaning": "يكسر", "example": "She has broken her phone." },
+    { "base": "bring", "past": "brought", "past_participle": "brought", "meaning": "يجلب", "example": "He has brought his friend." },
+    { "base": "build", "past": "built", "past_participle": "built", "meaning": "يبني", "example": "They have built a new school." },
+    { "base": "burn", "past": "burned/burnt", "past_participle": "burned/burnt", "meaning": "يحترق", "example": "The toast has burnt." },
+    { "base": "buy", "past": "bought", "past_participle": "bought", "meaning": "يشتري", "example": "I have bought a new car." },
+    { "base": "catch", "past": "caught", "past_participle": "caught", "meaning": "يمسك", "example": "She has caught a fish." },
+    { "base": "choose", "past": "chose", "past_participle": "chosen", "meaning": "يختار", "example": "He has chosen the red one." },
+    { "base": "come", "past": "came", "past_participle": "come", "meaning": "يأتي", "example": "They have come home." },
+    { "base": "cost", "past": "cost", "past_participle": "cost", "meaning": "يكلف", "example": "It has cost a lot." },
+    { "base": "cut", "past": "cut", "past_participle": "cut", "meaning": "يقطع", "example": "She has cut the paper." },
+    { "base": "dig", "past": "dug", "past_participle": "dug", "meaning": "يحفر", "example": "He has dug a hole." },
+    { "base": "do", "past": "did", "past_participle": "done", "meaning": "يفعل", "example": "I have done my homework." },
+    { "base": "draw", "past": "drew", "past_participle": "drawn", "meaning": "يرسم", "example": "She has drawn a picture." },
+    { "base": "dream", "past": "dreamed/dreamt", "past_participle": "dreamed/dreamt", "meaning": "يحلم", "example": "I have dreamt of you." },
+    { "base": "drink", "past": "drank", "past_participle": "drunk", "meaning": "يشرب", "example": "He has drunk all the water." },
+    { "base": "drive", "past": "drove", "past_participle": "driven", "meaning": "يقود", "example": "She has driven a bus." },
+    { "base": "eat", "past": "ate", "past_participle": "eaten", "meaning": "يأكل", "example": "We have eaten already." },
+    { "base": "fall", "past": "fell", "past_participle": "fallen", "meaning": "يسقط", "example": "The leaves have fallen." },
+    { "base": "feed", "past": "fed", "past_participle": "fed", "meaning": "يطعم", "example": "I have fed the cat." },
+    { "base": "feel", "past": "felt", "past_participle": "felt", "meaning": "يشعر", "example": "She has felt better." },
+    { "base": "fight", "past": "fought", "past_participle": "fought", "meaning": "يقاتل", "example": "They have fought bravely." },
+    { "base": "find", "past": "found", "past_participle": "found", "meaning": "يجد", "example": "I have found my keys." },
+    { "base": "fly", "past": "flew", "past_participle": "flown", "meaning": "يطير", "example": "The bird has flown away." },
+    { "base": "forget", "past": "forgot", "past_participle": "forgotten", "meaning": "ينسى", "example": "He has forgotten his password." },
+    { "base": "forgive", "past": "forgave", "past_participle": "forgiven", "meaning": "يسامح", "example": "She has forgiven him." },
+    { "base": "freeze", "past": "froze", "past_participle": "frozen", "meaning": "يتجمد", "example": "The water has frozen." },
+    { "base": "get", "past": "got", "past_participle": "got/gotten", "meaning": "يحصل", "example": "I have got a new job." },
+    { "base": "give", "past": "gave", "past_participle": "given", "meaning": "يعطي", "example": "He has given me a gift." },
+    { "base": "go", "past": "went", "past_participle": "gone", "meaning": "يذهب", "example": "She has gone to school." },
+    { "base": "grow", "past": "grew", "past_participle": "grown", "meaning": "ينمو / يزرع", "example": "The plant has grown." },
+    { "base": "hang", "past": "hung", "past_participle": "hung", "meaning": "يعلق", "example": "I have hung the picture." },
+    { "base": "have", "past": "had", "past_participle": "had", "meaning": "يملك / يأكل", "example": "I have had breakfast." },
+    { "base": "hear", "past": "heard", "past_participle": "heard", "meaning": "يسمع", "example": "I have heard the news." },
+    { "base": "hide", "past": "hid", "past_participle": "hidden", "meaning": "يخفي", "example": "He has hidden the treasure." },
+    { "base": "hit", "past": "hit", "past_participle": "hit", "meaning": "يضرب", "example": "She has hit the ball." },
+    { "base": "hold", "past": "held", "past_participle": "held", "meaning": "يمسك", "example": "He has held my hand." },
+    { "base": "hurt", "past": "hurt", "past_participle": "hurt", "meaning": "يؤذي", "example": "I have hurt my leg." },
+    { "base": "keep", "past": "kept", "past_participle": "kept", "meaning": "يحتفظ", "example": "She has kept the secret." },
+    { "base": "know", "past": "knew", "past_participle": "known", "meaning": "يعرف", "example": "I have known him for years." },
+    { "base": "lay", "past": "laid", "past_participle": "laid", "meaning": "يضع", "example": "She has laid the table." },
+    { "base": "lead", "past": "led", "past_participle": "led", "meaning": "يقود", "example": "He has led the team." },
+    { "base": "learn", "past": "learned/learnt", "past_participle": "learned/learnt", "meaning": "يتعلم", "example": "I have learned a lot." },
+    { "base": "leave", "past": "left", "past_participle": "left", "meaning": "يغادر", "example": "They have left early." },
+    { "base": "lend", "past": "lent", "past_participle": "lent", "meaning": "يُقرض", "example": "He has lent me money." },
+    { "base": "let", "past": "let", "past_participle": "let", "meaning": "يسمح", "example": "She has let us in." },
+    { "base": "lie", "past": "lay", "past_participle": "lain", "meaning": "يستلقي", "example": "He has lain on the sofa." },
+    { "base": "light", "past": "lit", "past_participle": "lit", "meaning": "يضيء", "example": "She has lit the candle." },
+    { "base": "lose", "past": "lost", "past_participle": "lost", "meaning": "يفقد", "example": "I have lost my wallet." },
+    { "base": "make", "past": "made", "past_participle": "made", "meaning": "يصنع", "example": "She has made a cake." },
+    { "base": "mean", "past": "meant", "past_participle": "meant", "meaning": "يعني", "example": "What have you meant?" },
+    { "base": "meet", "past": "met", "past_participle": "met", "meaning": "يقابل", "example": "I have met him before." },
+    { "base": "pay", "past": "paid", "past_participle": "paid", "meaning": "يدفع", "example": "He has paid the bill." },
+    { "base": "put", "past": "put", "past_participle": "put", "meaning": "يضع", "example": "She has put the book on the table." },
+    { "base": "read", "past": "read", "past_participle": "read", "meaning": "يقرأ", "example": "I have read that book." },
+    { "base": "ride", "past": "rode", "past_participle": "ridden", "meaning": "يركب", "example": "He has ridden a horse." },
+    { "base": "ring", "past": "rang", "past_participle": "rung", "meaning": "يرن", "example": "The bell has rung." },
+    { "base": "rise", "past": "rose", "past_participle": "risen", "meaning": "يرتفع", "example": "The sun has risen." },
+    { "base": "run", "past": "ran", "past_participle": "run", "meaning": "يجري", "example": "She has run a marathon." },
+    { "base": "say", "past": "said", "past_participle": "said", "meaning": "يقول", "example": "He has said hello." },
+    { "base": "see", "past": "saw", "past_participle": "seen", "meaning": "يرى", "example": "I have seen that movie." },
+    { "base": "sell", "past": "sold", "past_participle": "sold", "meaning": "يبيع", "example": "She has sold her car." },
+    { "base": "send", "past": "sent", "past_participle": "sent", "meaning": "يرسل", "example": "I have sent an email." },
+    { "base": "set", "past": "set", "past_participle": "set", "meaning": "يضع", "example": "He has set the table." },
+    { "base": "shake", "past": "shook", "past_participle": "shaken", "meaning": "يهز", "example": "She has shaken my hand." },
+    { "base": "shine", "past": "shone", "past_participle": "shone", "meaning": "يسطع", "example": "The sun has shone." },
+    { "base": "shoot", "past": "shot", "past_participle": "shot", "meaning": "يطلق النار", "example": "He has shot a target." },
+    { "base": "show", "past": "showed", "past_participle": "shown", "meaning": "يظهر", "example": "She has shown me her work." },
+    { "base": "shut", "past": "shut", "past_participle": "shut", "meaning": "يغلق", "example": "I have shut the door." },
+    { "base": "sing", "past": "sang", "past_participle": "sang/sung", "meaning": "يغني", "example": "He has sung beautifully." },
+    { "base": "sink", "past": "sank", "past_participle": "sunk", "meaning": "يغرق", "example": "The boat has sunk." },
+    { "base": "sit", "past": "sat", "past_participle": "sat", "meaning": "يجلس", "example": "She has sat on the chair." },
+    { "base": "sleep", "past": "slept", "past_participle": "slept", "meaning": "ينام", "example": "I have slept well." },
+    { "base": "speak", "past": "spoke", "past_participle": "spoken", "meaning": "يتكلم", "example": "He has spoken the truth." },
+    { "base": "spend", "past": "spent", "past_participle": "spent", "meaning": "ينفق / يقضي", "example": "She has spent all her money." },
+    { "base": "stand", "past": "stood", "past_participle": "stood", "meaning": "يقف", "example": "I have stood for hours." },
+    { "base": "steal", "past": "stole", "past_participle": "stolen", "meaning": "يسرق", "example": "Someone has stolen my bike." },
+    { "base": "stick", "past": "stuck", "past_participle": "stuck", "meaning": "يلصق", "example": "He has stuck the poster." },
+    { "base": "strike", "past": "struck", "past_participle": "struck", "meaning": "يضرب", "example": "Lightning has struck the tree." },
+    { "base": "swear", "past": "swore", "past_participle": "sworn", "meaning": "يقسم", "example": "She has sworn to tell the truth." },
+    { "base": "sweep", "past": "swept", "past_participle": "swept", "meaning": "يكنس", "example": "I have swept the floor." },
+    { "base": "swim", "past": "swam", "past_participle": "swum", "meaning": "يسبح", "example": "He has swum across the river." },
+    { "base": "take", "past": "took", "past_participle": "taken", "meaning": "يأخذ", "example": "She has taken my pen." },
+    { "base": "teach", "past": "taught", "past_participle": "taught", "meaning": "يعلم", "example": "He has taught me English." },
+    { "base": "tear", "past": "tore", "past_participle": "torn", "meaning": "يمزق", "example": "I have torn the paper." },
+    { "base": "tell", "past": "told", "past_participle": "told", "meaning": "يخبر", "example": "She has told me a secret." },
+    { "base": "think", "past": "thought", "past_participle": "thought", "meaning": "يفكر", "example": "I have thought about it." },
+    { "base": "throw", "past": "threw", "past_participle": "thrown", "meaning": "يرمي", "example": "He has thrown the ball." },
+    { "base": "understand", "past": "understood", "past_participle": "understood", "meaning": "يفهم", "example": "I have understood the lesson." },
+    { "base": "wake", "past": "woke", "past_participle": "woken", "meaning": "يستيقظ", "example": "She has woken up early." },
+    { "base": "wear", "past": "wore", "past_participle": "worn", "meaning": "يرتدي", "example": "He has worn a new shirt." },
+    { "base": "win", "past": "won", "past_participle": "won", "meaning": "يفوز", "example": "They have won the match." },
+    { "base": "write", "past": "wrote", "past_participle": "written", "meaning": "يكتب", "example": "She has written a letter." }
+  ],
+  "grammar_summary_table": [
+    "✅ Present Perfect → has/have + past participle (I have eaten / She has gone)",
+    "✅ already → مثبت (I have already eaten)",
+    "✅ yet → نفي / سؤال (I haven't eaten yet / Have you eaten yet?)",
+    "✅ just → حدث قريب (I have just eaten)",
+    "✅ since + نقطة بداية (since Monday)",
+    "✅ for + مدة زمنية (for two hours)",
+    "✅ Gerunds بعد أفعال معينة (miss, can't stand, enjoy, imagine, give up, avoid, suggest)",
+    "✅ Phrasal verbs: turn down/off/on/up, give up",
+    "✅ so + صفة + that",
+    "✅ such a + صفة + اسم مفرد + that",
+    "✅ so many + اسم جمع + that",
+    "✅ so much + اسم غير معدود + that"
+  ],
+  "final_exam_tips": [
+    "🎯 راجع قائمة الأفعال الشاذة (irregular verbs) جيداً، خاصة التصريف الثالث (past participle).",
+    "🎯 انتبه إلى الفرق بين since و for.",
+    "🎯 تذكر أن already و just تأتيان في منتصف الجملة، بينما yet تأتي في النهاية.",
+    "🎯 بعد الأفعال (miss, enjoy, can't stand, etc.) استخدم ing مباشرة.",
+    "🎯 عند استخدام phrasal verbs مع الضمائر، ضع الضمير بين الفعل والحرف (turn it down).",
+    "🎯 في قاعدة so/such، تذكر أن so تسبق صفة فقط، بينما such a تسبق اسماً مفرداً."
+  ]
+}
