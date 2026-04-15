@@ -1,114 +1,177 @@
 {
-  "title": "📘 If Clauses | الجمل الشرطية – مع الأستاذ الأسطوري 👨‍🏫🔥",
-  "intro": "🎯 يا بطل، الجمل الشرطية (If Clauses) هي سرّك للكلام مثل الأجانب. بتقدر تحكي عن الأحلام، الحقائق، والاحتمالات. خلينا نغوص في القواعد وكأننا في قمرة قيادة مركبة فضائية! 🚀",
+  "title": "📘 If Clauses | رحلة الإتقان في الجمل الشرطية – من الصفر إلى الإبداع",
+  "intro": "مرحباً بك في رحلتنا لإتقان الجمل الشرطية. اليوم سنبحر معاً في ثلاثة عوالم: عالم الحقائق، عالم الاحتمالات، وعالم الأمنيات. سنتعلم، نتدرب، ثم نطبق بأنفسنا. اربط حزامك 🚀.",
   "topics": [
     {
-      "name": "0️⃣ النوع الصفري: الحقائق العلمية المطلقة 🧊🔥",
-      "rule": "إذا فعلت كذا، النتيجة دايمًا بتصير كذا. مثل قانون فيزيائي!",
-      "form": "If + مضارع بسيط , مضارع بسيط",
-      "technical_note": "🧠 تقنيًا: الزمنين في الطرفين مضارع بسيط لأن الحدث حقيقة مطلقة لا تتغير. الـ Condition دائماً True.",
-      "examples": [
-        "💧 If you heat water to 100°C, it **boils**.",
-        "🌧️ If it **rains**, the grass **gets** wet.",
-        "🍦 If you **leave** ice cream in the sun, it **melts**.",
-        "⏰ If I **sleep** late, I **wake up** tired. (حقيقة بيولوجية 😅)"
-      ],
-      "notes": [
-        "⚠️ ممنوع استخدام `will` في جواب النوع الصفري. `If you heat water, it boils` ✅ *مش* `it will boil` ❌ في هذا السياق العلمي."
-      ],
-      "esl_secret": "🎓 بعد 50 سنة تدريس: استخدم النوع الصفري لإعطاء تعليمات أو تحذيرات عامة. 'If you see the red button, don't touch it!'"
+      "name": "🔷 1. النوع الصفري | Zero Conditional | عالم الحقائق المطلقة 🌍",
+      "model": {
+        "deep_explanation": "تخيل أنك تفتح كتاب العلوم. عندما تقرأ 'إذا سخنت الماء، فإنه يغلي'، أنت تستخدم النوع الصفري. هذا النوع لا يتحدث عن المستقبل ولا عن الماضي. إنه يتحدث عن **حقيقة دائمة**. العلاقة بين الشرط والنتيجة هنا علاقة **سبب ونتيجة حتمية**. في اللغة العربية نقول: 'إذا أكلت كثيراً، تنتفخ بطنك'. لاحظ أن الفعلين مضارعان. في الإنجليزية، نستخدم المضارع البسيط في الطرفين. هذا هو سر النوع الصفري.",
+        "formula": "If + فاعل + فعل مضارع بسيط , فاعل + فعل مضارع بسيط",
+        "technical_note": "من الناحية التقنية، الزمن هنا هو 'Present Simple' في جملة الشرط وجواب الشرط. لأن الحدث لا يتعلق بزمن مستقبلي محدد، بل هو صحيح في أي وقت. لو أردت استخدام 'will' هنا، سيكون خطأ فادحاً لأن 'will' تعني مستقبل غير مؤكد، لكن غليان الماء مؤكد 100%.",
+        "guided_examples": [
+          {
+            "situation": "أنت في المختبر. تريد أن تخبر زميلك ماذا يحدث إذا خلطت مادتين كيميائيتين معينتين.",
+            "correct": "If you mix red and blue, you get purple.",
+            "why": "لأنها حقيقة ثابتة. استخدمنا المضارع البسيط 'mix' و 'get'.",
+            "wrong": "If you will mix red and blue, you will get purple. ❌ (خطأ: لا نستخدم will في الحقيقة العلمية)."
+          }
+        ]
+      },
+      "guided_practice": {
+        "instruction": "أكمل الجمل التالية لتكوين حقائق عامة. استخدم الفعل بصيغته الصحيحة.",
+        "exercises": [
+          {
+            "sentence": "If you ______ (heat) ice, it ______ (melt).",
+            "hint": "فكر في فيزياء أول متوسط. الحرارة ماذا تفعل بالثلج؟",
+            "answer": "heat / melts",
+            "explanation": "الفاعل 'you' يأخذ الفعل بدون 's'. الفاعل 'it' مفرد غائب، لذا نضيف 's' للفعل 'melt'."
+          },
+          {
+            "sentence": "If it ______ (rain), the grass ______ (get) wet.",
+            "hint": "هذه حقيقة طبيعية.",
+            "answer": "rains / gets",
+            "explanation": "'It' ضمير مفرد غائب، لذا الفعل 'rain + s' و 'get + s'."
+          }
+        ]
+      },
+      "independent_practice": {
+        "instruction": "الآن دورك. كون ثلاث جمل باستخدام النوع الصفري عن حياتك اليومية أو مواقف عامة.",
+        "prompts": [
+          "ماذا يحدث إذا لم تنم مبكراً؟",
+          "ماذا يحدث إذا أكلت كثيراً من السكر؟",
+          "ماذا يحدث إذا ضغطت على زر الطاقة في الحاسوب؟"
+        ],
+        "self_check": "تأكد أن الفعلين في المضارع البسيط. إذا استخدمت 'will'، فأنت مخطئ."
+      }
     },
     {
-      "name": "1️⃣ النوع الأول: المستقبل المحتمل (يعني وارد يحصل) 🔮✅",
-      "rule": "نتكلم عن شيء متوقع حدوثه في المستقبل إذا تحقق الشرط. نسبة الحدوث عالية.",
-      "form": "If + مضارع بسيط , will + مصدر (أو may/might/can)",
-      "technical_note": "🧠 تقنيًا: الشرط في الحاضر أو المستقبل، والنتيجة في المستقبل. احتمال حقيقي Real Possibility.",
-      "examples": [
-        "🏫 If Raad **comes** early, we **will go** to the library.",
-        "📚 If you **study** hard, you **will pass** the exam. (ادرس يا بطل!)",
-        "🚗 I **will buy** a gift if I **have** enough money.",
-        "☔ If it **rains** tomorrow, I **might stay** home. (استخدمنا might للاحتمال الأقل)",
-        "🏃 If you **run** fast, you **can catch** the bus."
-      ],
-      "alternative_forms": [
-        "🔄 بدل `will` تقدر تستخدم:",
-        "• `be going to` → If the weather is nice, I **am going to walk**.",
-        "• `may/might/can` → If you drop it, it **may break**."
-      ],
-      "notes": [
-        "🔁 تقدر تعكس الجملة بدون فاصلة: `I will go if it doesn't rain.`",
-        "🛑 تذكر: بعد If مباشرة لا نضع will. خطأ شائع: `If it will rain` ❌ الصحيح `If it rains` ✅"
-      ],
-      "esl_secret": "🎓 سر المدرس المخضرم: النوع الأول يستخدم في المفاوضات والتهديدات المهذبة. 'If you don't finish your homework, you won't play PlayStation.' 😈"
+      "name": "🔷 2. النوع الأول | First Conditional | عالم الاحتمالات الحقيقية 🎲",
+      "model": {
+        "deep_explanation": "الآن نترك مختبر العلوم وندخل إلى الحياة الواقعية. أنت تخطط ليومك. تقول: 'إذا انتهيت من واجبي مبكراً، سألعب كرة القدم مع أخي'. هنا الحدث **محتمل جداً** وليس حقيقة علمية. أنت واثق أنك ستنتهي، وبناء على ذلك سيكون اللعب. هذا هو النوع الأول: شرط في الحاضر أو المستقبل، ونتيجة مستقبلية محتملة. سر هذا النوع هو كلمة **'will'** في جواب الشرط. هي بمثابة وعد أو توقع قوي.",
+        "formula": "If + فاعل + فعل مضارع بسيط , فاعل + will + مصدر الفعل",
+        "technical_note": "لاحظ أننا بعد 'If' **لا نستخدم will أبداً**. لماذا؟ لأن 'If' بحد ذاتها تعني 'إذا' وهي كافية للدلالة على المستقبل. استخدام 'will' بعدها تكرار غير ضروري ويعتبر خطأ نحوياً فادحاً. يمكنك استخدام 'may' أو 'might' أو 'can' بدلاً من 'will' إذا أردت التعبير عن احتمالية أقل أو قدرة.",
+        "guided_examples": [
+          {
+            "situation": "والدتك تقول لك: (إذا ذاكرت بجد، ستنجح).",
+            "correct": "If you study hard, you will pass.",
+            "why": "الشرط 'study' مضارع بسيط. الجواب 'will pass' مستقبل.",
+            "wrong": "If you will study hard, you will pass. ❌"
+          },
+          {
+            "situation": "صديقك يقول: (إذا لم يذهب عمر إلى الكلية، سيرسب).",
+            "correct": "If Imad doesn't go to college, he will fail.",
+            "why": "لاحظ النفي هنا: 'doesn't go'. بعد 'If' النفي يكون بـ 'don't' أو 'doesn't' + المصدر."
+          }
+        ]
+      },
+      "guided_practice": {
+        "instruction": "صحح الأخطاء في الجمل التالية أو أكملها.",
+        "exercises": [
+          {
+            "sentence": "If she (will come) early, we will watch the movie.",
+            "correction": "If she comes early, we will watch the movie.",
+            "explanation": "بعد 'If' نحذف 'will' ونصرف الفعل حسب الفاعل (she comes)."
+          },
+          {
+            "sentence": "If it (rain) tomorrow, I ______ (stay) home.",
+            "answer": "rains / will stay",
+            "explanation": "الشرط مضارع بسيط (rains)، الجواب مستقبل (will stay)."
+          }
+        ]
+      },
+      "independent_practice": {
+        "instruction": "أكتب رسالة نصية لصديقك تخبره عن خططك لعطلة نهاية الأسبوع. استخدم على الأقل 3 جمل من النوع الأول.",
+        "example_start": "Hi Ahmed, if the weather is nice on Friday, I will..."
+      }
     },
     {
-      "name": "2️⃣ النوع الثاني: الخيال والأمنيات (المستحيل أو غير الواقعي حاليًا) 🦄✨",
-      "rule": "نستخدمه للتحدث عن أحلام يقظة، مواقف غير حقيقية *في الوقت الحالي*، أو نصائح باستخدام 'If I were you'.",
-      "form": "If + ماضي بسيط , would/could/might + مصدر",
-      "technical_note": "🧠 تقنيًا: الزمن ماضي بسيط في الشرط لكن المعنى *ليس* ماضيًا، بل خيال حاضر أو مستقبلي غير محتمل. الـ Subjunctive mood.",
-      "special_case": "👑 مع الضمير `I` و `he/she/it` نستخدم `were` وليس `was` في اللغة الرسمية والفصحى (ويعطي انطباعاً أنك فنان). 'If I *were* a millionaire...'",
-      "examples": [
-        "💰 If I **were** rich, I **would buy** a private island. 🏝️",
-        "🚗 If Raad **had** a car, he **would drive** us to school. (لكن ليس لديه سيارة الآن)",
-        "🐕 If I **met** a lion, I **would run** away. 🦁💨",
-        "💡 If I **were** you, I **would apologize**. (نصيحة ذهبية)",
-        "🎸 I **could travel** the world if I **had** more time."
-      ],
-      "wish_clause": "🙏 قاعدة `I wish` (أتمنى) مرتبطة بالنوع الثاني: نستخدم `I wish + ماضي بسيط` للأمنيات المستحيلة أو الصعبة حاليًا.",
-      "wish_examples": [
-        "🌟 I wish I **were** taller. (أتمنى أكون أطول)",
-        "📝 I wish we **didn't have** a test today.",
-        "✈️ I wish we **could go** to Disney World."
-      ],
-      "would_rather": "🤔 قاعدة `I would rather` (أفضل): بعدها مصدر بدون to. 'I would rather **stay** home.'",
-      "notes": [
-        "🧙 الجملة 'If I were you' لا تعني أنك صرت الشخص الآخر، بل مجاز لطيف لتقديم نصيحة.",
-        "💡 بعد `would` الفعل يكون مصدر (بدون to)."
-      ],
-      "esl_secret": "🎓 من خبرة 50 سنة: النوع الثاني هو أداة الحالمين والفلاسفة. استخدمه عندما تريد أن تبدو عميقًا أو لطيفًا في الرفض. 'I would help you if I had time, but I'm busy watching Netflix.' 📺"
+      "name": "🔷 3. النوع الثاني | Second Conditional | عالم الخيال والأمنيات 🌌",
+      "model": {
+        "deep_explanation": "هذا هو الجزء الممتع. تخيل أنك غني جداً، أو أنك طائر، أو أنك رئيس الوزراء. هذه أشياء **غير حقيقية** الآن، أو مستحيلة. لكي تتحدث عنها باللغة الإنجليزية، تستخدم النوع الثاني. السر هنا هو **الرجوع خطوة إلى الوراء في الزمن**. في الشرط، نستخدم الماضي البسيط، حتى لو كنا نتكلم عن الحاضر! لماذا؟ لندل على أن الفكرة 'بعيدة عن الواقع'. في جواب الشرط نستخدم **'would' + المصدر**. 'Would' هنا هي أداة الأحلام.",
+        "formula": "If + فاعل + فعل ماضي بسيط , فاعل + would + مصدر الفعل",
+        "technical_note": "في اللغة الرسمية جداً، نستخدم 'were' مع جميع الضمائر (I, he, she, it). هذه تسمى 'Subjunctive Mood'. استخدام 'I were' بدل 'I was' يعطي انطباعاً بالفصاحة. لكن في المحادثة اليومية، 'I was' مقبولة تماماً.",
+        "guided_examples": [
+          {
+            "situation": "أنت طالب فقير. تقول: (لو كنت مليونيراً، لذهبت إلى أمريكا).",
+            "correct": "If I were a millionaire, I would go to America.",
+            "why": "الشرط 'were' (ماضي بسيط). الجواب 'would go'.",
+            "wrong": "If I am a millionaire, I will go. ❌ (هذا يعني أنك تتوقع أن تصبح مليونيراً قريباً!)"
+          }
+        ]
+      },
+      "guided_practice": {
+        "instruction": "حول الجمل التالية من النوع الأول إلى النوع الثاني لتصبح خيالية.",
+        "exercises": [
+          {
+            "first_conditional": "If I have time, I will visit you.",
+            "second_conditional_answer": "If I had time, I would visit you.",
+            "meaning_shift": "في الجملة الأولى: أنا متفائل وقد أزورك. في الجملة الثانية: أنا مشغول جداً ولن أستطيع زيارتك (أمنية)."
+          },
+          {
+            "first_conditional": "If she studies, she will pass.",
+            "second_conditional_answer": "If she studied, she would pass.",
+            "meaning_shift": "في الجملة الأولى: هي تذاكر الآن. في الجملة الثانية: هي لا تذاكر الآن (لذلك هي في خطر الرسوب)."
+          }
+        ]
+      },
+      "independent_practice": {
+        "instruction": "أكتب فقرة قصيرة من 5 أسطر تشرح فيها ماذا ستفعل لو كنت مدير مدرستك. استخدم النوع الثاني.",
+        "vocabulary_help": "I would change the uniform, I would give more breaks, If I were the principal..."
+      }
     },
     {
-      "name": "⚖️ مقارنة نارية بين الأنواع (للمحترفين فقط) 🔥",
-      "comparison_table": [
-        "✅ **Zero Conditional**: If + present, present → حقائق عامة (If water boils, it evaporates.)",
-        "✅ **First Conditional**: If + present, will + inf → احتمالية قوية (If I study, I will pass.)",
-        "✅ **Second Conditional**: If + past, would + inf → خيال / نصائح (If I were you, I would sleep early.)"
-      ]
+      "name": "🔷 4. 'I wish' و 'I would rather' | صيغ التمني والتفضيل ✨",
+      "model": {
+        "deep_explanation": "هاتان الصيغتان هما أقارب النوع الثاني. تستخدمان للتعبير عن الرغبة في تغيير الواقع.",
+        "i_wish_rule": "للتعبير عن أمنية في الوقت الحالي (شيء نتمنى لو كان مختلفاً)، نستخدم: **I wish + فاعل + فعل ماضي بسيط**. هذا مشابه جداً للنوع الثاني (If I were...).",
+        "i_wish_examples": [
+          "I wish I **had** a car. (أتمنى لو أن لدي سيارة الآن - لكن ليس لدي واحدة).",
+          "I wish I **were** taller. (أتمنى لو كنت أطول)."
+        ],
+        "would_rather_rule": "للتعبير عن تفضيل شيء على شيء آخر، نستخدم: **I would rather + مصدر بدون to + (than)**.",
+        "would_rather_examples": [
+          "I would rather **stay** home than go out. (أفضل البقاء في المنزل).",
+          "I would rather **have** coffee. (أفضل القهوة)."
+        ]
+      },
+      "guided_practice": {
+        "instruction": "أكمل الجمل التالية بالفعل الصحيح.",
+        "exercises": [
+          {
+            "sentence": "I wish I ______ (be) a bird.",
+            "answer": "were",
+            "explanation": "بعد 'I wish' نستخدم الفعل الماضي. مع الضمير 'I'، الفعل 'be' يصبح 'were'."
+          },
+          {
+            "sentence": "I would rather ______ (drink) tea.",
+            "answer": "drink",
+            "explanation": "بعد 'would rather' نستخدم المصدر بدون 'to'."
+          }
+        ]
+      },
+      "independent_practice": {
+        "instruction": "أكتب جملتين: واحدة تبدأ بـ 'I wish' وأخرى بـ 'I would rather' عن حياتك المدرسية.",
+        "example": "I wish we didn't have homework today. / I would rather study math than science."
+      }
     },
     {
-      "name": "🧰 أدوات تقنية إضافية (Power-Ups) 🛠️",
-      "subtopics": [
-        {
-          "title": "🔹 استخدام May / Might / Can في الجواب",
-          "explanation": "بدلاً من will/would، يمكنك استخدام هذه الأفعال للتعبير عن درجات مختلفة من التأكيد أو القدرة.",
-          "examples": [
-            "If you run, you **can** catch the bus. (قدرة)",
-            "If you don't eat, you **may** feel dizzy. (احتمال)",
-            "If I were rich, I **might** buy a yacht. (احتمال أقل من would)"
-          ]
-        },
-        {
-          "title": "🔹 Phrasal Verbs المرتبطة بالوحدة",
-          "word_list": ["benefit from (يستفيد من)", "interfere with (يتداخل مع)", "care for (يعتني بـ)", "protest against (يحتج ضد)"],
-          "example": "If you exercise, you will **benefit from** better health."
-        },
-        {
-          "title": "🔹 مفردات إضافية للمحترفين",
-          "word_list": ["probably (على الأرجح)", "definitely (بالتأكيد)", "certainly (بكل تأكيد)"],
-          "example": "If it's sunny, we'll **probably** go to the beach."
-        }
-      ]
-    },
-    {
-      "name": "🎮 خلاصة الدحيح: القواعد كأنها لعبة فيديو 🎮",
-      "fun_summary": [
-        "🟢 **Zero Conditional**: IF + PRESENT = RESULT. (زر 'دائمًا' 🔁)",
-        "🟡 **First Conditional**: IF + PRESENT = WILL + BASE. (وضع 'المستقبل' 🚀)",
-        "🔴 **Second Conditional**: IF + PAST = WOULD + BASE. (وضع 'الخيال العلمي' 👽)",
-        "💡 تذكر دائمًا: لا Will بعد If مباشرة إلا إذا كنت تقصد 'إذا كان سوف' في حالات نادرة جدًا."
-      ],
-      "pro_tip": "🦉 نصيحة البومة العجوز: أفضل طريقة لتتعلم if clauses هي أن تتخيل مواقف وتمثلها. قف أمام المرآة وقل: 'If I were a superhero, I would fly to school.' 🦸"
+      "name": "🧠 خريطة ذهنية نهائية للمراجعة (قبل الاختبار)",
+      "model": {
+        "comparison_table": [
+          "📌 النوع الصفري: If + مضارع بسيط, مضارع بسيط (حقيقة دائمة).",
+          "📌 النوع الأول: If + مضارع بسيط, will + مصدر (احتمال مستقبلي قوي).",
+          "📌 النوع الثاني: If + ماضي بسيط, would + مصدر (خيال / موقف غير حقيقي الآن).",
+          "📌 التمني: I wish + ماضي بسيط.",
+          "📌 التفضيل: I would rather + مصدر بدون to."
+        ],
+        "common_mistakes_alert": [
+          "🚨 خطأ: If it will rain, I will stay. (لا تستخدم will بعد If).",
+          "✅ صحيح: If it rains, I will stay.",
+          "🚨 خطأ: I wish I am rich. (استخدم الماضي).",
+          "✅ صحيح: I wish I were rich."
+        ]
+      }
     }
   ],
-  "final_reminder": "🧪 جرب التمارين في التبويب 'شامل' بعد قراءة هذا الدرس الأسطوري. وتذكر: الممارسة تصنع المعجزات. أنت الآن جاهز لاجتياز اختبار الوحدة 11 وانت مغمض! 😎👊"
+  "final_encouragement": "لقد أبحرت معنا في أعماق الجمل الشرطية. أنت الآن تملك المعرفة النظرية والتطبيق العملي. انتقل إلى تبويب 'الاختبار الشامل' وضع ما تعلمته موضع التنفيذ. بالتوفيق يا بطل! 🇸🇦"
 }
