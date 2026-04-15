@@ -1,0 +1,112 @@
+[
+  {
+    "text": "ما معنى كلمة 'treasure'؟",
+    "options": ["كنز", "صديق", "ذكرى", "هدية"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'treasure' تعني كنز أو شيء ثمين جداً.",
+      "B": "❌ 'friend' تعني صديق.",
+      "C": "❌ 'memory' ذكرى.",
+      "D": "❌ 'gift' هدية."
+    }
+  },
+  {
+    "text": "ما معنى 'studious'؟",
+    "options": ["مجتهد دراسياً", "كسول", "مرح", "قوي"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'studious' تعني محب للدراسة ومجتهد.",
+      "B": "❌ 'lazy' كسول.",
+      "C": "❌ 'cheerful' مرح.",
+      "D": "❌ 'strong' قوي."
+    }
+  },
+  {
+    "text": "ما معنى 'well-mannered'؟",
+    "options": ["مؤدب / حسن الخلق", "سيء الخلق", "غاضب", "خجول"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'well-mannered' تصف الشخص المهذب.",
+      "B": "❌ 'rude' وقح.",
+      "C": "❌ 'angry' غاضب.",
+      "D": "❌ 'shy' خجول."
+    }
+  },
+  {
+    "text": "ما معنى 'encourage'؟",
+    "options": ["يشجع", "يمنع", "ينتقد", "يساعد"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'encourage' تعطي دفعة إيجابية.",
+      "B": "❌ 'discourage' يثبط.",
+      "C": "❌ 'criticize' ينتقد.",
+      "D": "❌ 'help' يساعد."
+    }
+  },
+  {
+    "text": "ما معنى 'brilliant'؟",
+    "options": ["لامع / عبقري", "ممل", "بطيء", "عادي"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'brilliant' تعني متألق أو ذكي جداً.",
+      "B": "❌ 'boring' ممل.",
+      "C": "❌ 'slow' بطيء.",
+      "D": "❌ 'ordinary' عادي."
+    }
+  },
+  {
+    "text": "ما معنى 'puppy'؟",
+    "options": ["جرو", "قطة صغيرة", "طائر", "سمكة"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'puppy' صغير الكلب.",
+      "B": "❌ 'kitten' قطة صغيرة.",
+      "C": "❌ 'bird' طائر.",
+      "D": "❌ 'fish' سمكة."
+    }
+  },
+  {
+    "text": "ما معنى 'bench'؟",
+    "options": ["مقعد خشبي طويل", "طاولة", "كرسي", "سبورة"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'bench' مقعد يجلس عليه أكثر من شخص.",
+      "B": "❌ 'table' طاولة.",
+      "C": "❌ 'chair' كرسي.",
+      "D": "❌ 'board' سبورة."
+    }
+  },
+  {
+    "text": "ما معنى 'handwriting'؟",
+    "options": ["خط اليد", "كتابة", "طباعة", "رسم"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'handwriting' جودة خط اليد.",
+      "B": "❌ 'writing' كتابة عامة.",
+      "C": "❌ 'typing' طباعة.",
+      "D": "❌ 'drawing' رسم."
+    }
+  },
+  {
+    "text": "ما معنى 'share'؟",
+    "options": ["يتشارك", "يخفي", "يأخذ", "يعطي"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'share' يقتسم مع الآخرين.",
+      "B": "❌ 'hide' يخفي.",
+      "C": "❌ 'take' يأخذ.",
+      "D": "❌ 'give' يعطي."
+    }
+  },
+  {
+    "text": "ما معنى 'polite'؟",
+    "options": ["مؤدب", "وقح", "هادئ", "مزعج"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'polite' مهذب.",
+      "B": "❌ 'rude' وقح.",
+      "C": "❌ 'quiet' هادئ.",
+      "D": "❌ 'annoying' مزعج."
+    }
+  }
+]
