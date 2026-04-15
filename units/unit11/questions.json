@@ -1,185 +1,1080 @@
 [
   {
-    "text": "If Raad comes early, we ______ to the library together.",
-    "options": ["go", "will go", "would go", "went"],
-    "correct": "B",
-    "explanation": {
-      "A": "❌ 'go' مضارع بسيط ولا يناسب جملة شرطية من النوع الأول.",
-      "B": "✅ صحيح: قاعدة If الشرطية من النوع الأول: If + present simple, will + المصدر.",
-      "C": "❌ 'would go' يستخدم مع النوع الثاني (غير المحتمل).",
-      "D": "❌ 'went' ماضي ولا يصح هنا."
-    }
-  },
-  {
-    "text": "If I ______ Raad's house, I will play with his puppy.",
-    "options": ["visit", "visited", "visiting", "will visit"],
-    "correct": "A",
-    "explanation": {
-      "A": "✅ صحيح: بعد If في النوع الأول نستخدم المضارع البسيط.",
-      "B": "❌ 'visited' ماضي ويستخدم في النوع الثاني.",
-      "C": "❌ 'visiting' بدون فعل مساعد غير صحيح.",
-      "D": "❌ لا نستخدم will بعد If مباشرة."
-    }
-  },
-  {
-    "text": "If I were older, I ______ travel the world.",
-    "options": ["can", "will", "would", "may"],
+    "text": "If it rains, you ______ wet.",
+    "options": ["gets", "got", "will get", "getting"],
     "correct": "C",
     "explanation": {
-      "A": "❌ 'can' لا تستخدم في جواب النوع الثاني.",
-      "B": "❌ 'will' للنوع الأول.",
-      "C": "✅ صحيح: قاعدة If النوع الثاني: If + ماضي بسيط, would + مصدر.",
-      "D": "❌ 'may' إمكانية وليس للنوع الثاني."
+      "A": "❌ 'gets' مضارع بسيط للمفرد، لكن الجملة شرطية من النوع الأول تحتاج 'will'.",
+      "B": "❌ 'got' ماضي، لا يستخدم في جواب النوع الأول.",
+      "C": "✅ صحيح: قاعدة If النوع الأول: If + مضارع بسيط, will + مصدر.",
+      "D": "❌ 'getting' اسم فاعل، لا يصلح كفعل رئيسي."
     }
   },
   {
-    "text": "Raad's mother cooks tasty dishes for ______.",
-    "options": ["we", "us", "our", "ours"],
-    "correct": "B",
-    "explanation": {
-      "A": "❌ 'we' فاعل، لكن هنا نحتاج مفعول به بعد حرف الجر for.",
-      "B": "✅ صحيح: 'us' ضمير مفعول به (لنا).",
-      "C": "❌ 'our' صفة ملكية تسبق اسماً.",
-      "D": "❌ 'ours' ضمير ملكية منفصل."
-    }
-  },
-  {
-    "text": "Raad is the ______ boy in our class.",
-    "options": ["tall", "taller", "tallest", "most tall"],
-    "correct": "C",
-    "explanation": {
-      "A": "❌ 'tall' صفة مطلقة.",
-      "B": "❌ 'taller' مقارنة بين اثنين.",
-      "C": "✅ صحيح: 'the tallest' تفضيل مطلق لأننا نتحدث عن الصف كله.",
-      "D": "❌ 'most tall' غير صحيحة مع الصفات القصيرة."
-    }
-  },
-  {
-    "text": "We have been friends ______ pre-school days.",
-    "options": ["for", "since", "from", "in"],
-    "correct": "B",
-    "explanation": {
-      "A": "❌ 'for' تليها مدة زمنية (for five years).",
-      "B": "✅ صحيح: 'since' تليها نقطة بداية (pre-school days).",
-      "C": "❌ 'from' قد تستخدم لكن ليس مع المضارع التام.",
-      "D": "❌ 'in' لا تصلح مع الزمن التام هنا."
-    }
-  },
-  {
-    "text": "The word 'studious' means:",
-    "options": ["كسول", "مجتهد في الدراسة", "مرح", "طويل"],
-    "correct": "B",
-    "explanation": {
-      "A": "❌ 'lazy' تعني كسول.",
-      "B": "✅ صحيح: 'studious' تصف الشخص الذي يحب الدراسة ويجتهد.",
-      "C": "❌ 'cheerful' تعني مرح.",
-      "D": "❌ 'tall' تعني طويل."
-    }
-  },
-  {
-    "text": "What does Raad's father do when they visit?",
-    "options": ["يصرخ عليهم", "يشتري شوكولاتة", "يطبخ", "يلعب كرة"],
-    "correct": "B",
-    "explanation": {
-      "A": "❌ لم يذكر ذلك.",
-      "B": "✅ صحيح: النص يقول 'His father brings chocolates for Raad and me.'",
-      "C": "❌ الأم هي التي تطبخ.",
-      "D": "❌ لم يذكر."
-    }
-  },
-  {
-    "text": "Choose the correct spelling:",
-    "options": ["studius", "studeous", "studious", "stodious"],
-    "correct": "C",
-    "explanation": {
-      "A": "❌ ناقص حرف o.",
-      "B": "❌ ترتيب خاطئ.",
-      "C": "✅ صحيح: s-t-u-d-i-o-u-s.",
-      "D": "❌ خطأ إملائي."
-    }
-  },
-  {
-    "text": "Choose the missing letter: trea_ure",
-    "options": ["s", "z", "c", "t"],
+    "text": "If Sally is late again, I will ______ mad.",
+    "options": ["be", "being", "been", "to be"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: 'treasure' (كنز) تكتب بحرف s.",
-      "B": "❌ 'treazure' خطأ.",
-      "C": "❌ 'treacure' خطأ.",
-      "D": "❌ 'treature' خطأ."
+      "A": "✅ صحيح: بعد 'will' يأتي الفعل في المصدر بدون to.",
+      "B": "❌ 'being' لا يأتي بعد will مباشرة.",
+      "C": "❌ 'been' تصريف ثالث، لا يستخدم بعد will هكذا.",
+      "D": "❌ 'to be' مصدر مع to، لا يستخدم بعد will."
     }
   },
   {
-    "text": "Choose the missing letter: bri_liant",
-    "options": ["l", "ll", "le", "li"],
+    "text": "If I ______ time, I will finish that letter.",
+    "options": ["to have", "have", "having", "had"],
     "correct": "B",
     "explanation": {
-      "A": "❌ ناقص l واحدة فقط، والصحيح حرفان.",
-      "B": "✅ صحيح: 'brilliant' تكتب بحرفي l (brilliant).",
-      "C": "❌ 'bri liant' خطأ.",
-      "D": "❌ خطأ."
+      "A": "❌ 'to have' مصدر، لا يستخدم في جملة If الشرطية.",
+      "B": "✅ صحيح: في النوع الأول، بعد If نضع مضارع بسيط.",
+      "C": "❌ 'having' لا تستخدم وحدها كفعل رئيسي.",
+      "D": "❌ 'had' ماضي، يستخدم في النوع الثاني."
     }
   },
   {
-    "text": "Choose the missing letter: enco_rage",
-    "options": ["u", "a", "i", "e"],
+    "text": "If you drop that glass, it will ______.",
+    "options": ["break", "broke", "breaks", "broken"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: 'encourage' (يشجع) تكتب بحرف u.",
-      "B": "❌ 'encorage' خطأ.",
-      "C": "❌ 'encoriage' خطأ.",
-      "D": "❌ 'encoreage' خطأ."
+      "A": "✅ صحيح: بعد will نضع المصدر (break).",
+      "B": "❌ 'broke' ماضي.",
+      "C": "❌ 'breaks' مضارع مع المفرد.",
+      "D": "❌ 'broken' تصريف ثالث، لا يأتي بعد will هكذا."
+    }
+  },
+  {
+    "text": "You will pass your exams if you ______ hard.",
+    "options": ["studying", "studies", "to study", "study"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'studying' تحتاج فعل مساعد (are studying).",
+      "B": "❌ 'studies' للمفرد (he/she) لكن الفاعل you.",
+      "C": "❌ 'to study' مصدر، لا يستخدم بعد If هنا.",
+      "D": "✅ صحيح: بعد If مضارع بسيط (study) لأن الفاعل you."
+    }
+  },
+  {
+    "text": "If it rains tomorrow, I am going to ______ the car.",
+    "options": ["took", "take", "taken", "taking"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'took' ماضي.",
+      "B": "✅ صحيح: بعد 'am going to' نستخدم المصدر (take).",
+      "C": "❌ 'taken' تصريف ثالث.",
+      "D": "❌ 'taking' اسم فاعل."
+    }
+  },
+  {
+    "text": "If the weather is nice, she ______ to work.",
+    "options": ["walk", "to walk", "is going to walk", "walked"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ 'walk' مضارع بسيط، لكن الفاعل she مفرد تحتاج walks، ويفضل استخدام المستقبل.",
+      "B": "❌ 'to walk' مصدر لا يصلح كفعل رئيسي.",
+      "C": "✅ صحيح: استخدام 'is going to' للتعبير عن خطة مستقبلية قريبة، وهو بديل عن will.",
+      "D": "❌ 'walked' ماضي."
+    }
+  },
+  {
+    "text": "I am going to ______ if there is nothing on TV.",
+    "options": ["read", "reading", "reads", "has read"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: بعد 'am going to' نضع المصدر (read).",
+      "B": "❌ 'reading' تحتاج فعل مساعد (am reading).",
+      "C": "❌ 'reads' مضارع بسيط للمفرد، لا يصلح هنا.",
+      "D": "❌ 'has read' مضارع تام، لا يصلح."
+    }
+  },
+  {
+    "text": "If it rains, the grass ______ wet.",
+    "options": ["get", "gets", "got", "gotten"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'get' تستخدم مع I/you/we/they، لكن grass مفرد.",
+      "B": "✅ صحيح: قاعدة النوع الصفري: If + مضارع بسيط, مضارع بسيط. grass مفرد فيأخذ gets.",
+      "C": "❌ 'got' ماضي.",
+      "D": "❌ 'gotten' تصريف ثالث."
+    }
+  },
+  {
+    "text": "If you freeze water, it ______ a solid.",
+    "options": ["to become", "becoming", "became", "becomes"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'to become' مصدر، لا يصلح كفعل رئيسي.",
+      "B": "❌ 'becoming' اسم فاعل.",
+      "C": "❌ 'became' ماضي.",
+      "D": "✅ صحيح: حقيقة علمية، نستخدم المضارع البسيط في جواب الشرط (it becomes)."
+    }
+  },
+  {
+    "text": "If we don't eat any lunch, we may ______ our money.",
+    "options": ["saved", "saving", "save", "saves"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ 'saved' ماضي أو تصريف ثالث.",
+      "B": "❌ 'saving' اسم فاعل.",
+      "C": "✅ صحيح: بعد 'may' نضع المصدر بدون to.",
+      "D": "❌ 'saves' مضارع للمفرد."
+    }
+  },
+  {
+    "text": "If I arrive early, I might ______ to the party.",
+    "options": ["go", "went", "going", "gone"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: بعد 'might' نضع المصدر بدون to.",
+      "B": "❌ 'went' ماضي.",
+      "C": "❌ 'going' اسم فاعل.",
+      "D": "❌ 'gone' تصريف ثالث."
+    }
+  },
+  {
+    "text": "If I ______ rich, I would travel around the world.",
+    "options": ["are", "were", "am", "is"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'are' تستخدم مع you/we/they، لكن مع I في النوع الثاني نستخدم were.",
+      "B": "✅ صحيح: في النوع الثاني (غير الواقعي) نستخدم were مع جميع الضمائر (If I were).",
+      "C": "❌ 'am' مضارع، لكن الشرط هنا غير واقعي فيستخدم الماضي.",
+      "D": "❌ 'is' للمفرد الغائب."
+    }
+  },
+  {
+    "text": "If I was a star, I would ______ the needy.",
+    "options": ["helps", "helping", "helped", "help"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'helps' مضارع مع المفرد.",
+      "B": "❌ 'helping' اسم فاعل.",
+      "C": "❌ 'helped' ماضي.",
+      "D": "✅ صحيح: بعد 'would' نضع المصدر بدون to."
+    }
+  },
+  {
+    "text": "He would buy a house if he ______ a job.",
+    "options": ["to have", "having", "have", "had"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'to have' مصدر، لا يستخدم بعد If في جملة الشرط.",
+      "B": "❌ 'having' لا تصلح وحدها.",
+      "C": "❌ 'have' مضارع، لكن النوع الثاني يتطلب ماضي بسيط.",
+      "D": "✅ صحيح: If + ماضي بسيط, would + مصدر."
+    }
+  },
+  {
+    "text": "I wish I ______ closer to my family.",
+    "options": ["to live", "lived", "lives", "living"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'to live' مصدر، لا يستخدم بعد wish هنا.",
+      "B": "✅ صحيح: بعد 'I wish' للتعبير عن أمنية في الحاضر نستخدم ماضي بسيط (lived).",
+      "C": "❌ 'lives' مضارع مع المفرد.",
+      "D": "❌ 'living' تحتاج فعل مساعد."
+    }
+  },
+  {
+    "text": "I wish we didn't ______ a test today.",
+    "options": ["have", "had", "to have", "having"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: بعد 'didn't' نعود للمصدر (have).",
+      "B": "❌ 'had' ماضي، لكن بعد didn't نستخدم المصدر.",
+      "C": "❌ 'to have' لا يستخدم هنا.",
+      "D": "❌ 'having' لا يستخدم."
+    }
+  },
+  {
+    "text": "I wish we could ______ to Disney World.",
+    "options": ["going", "went", "go", "goes"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ 'going' لا يأتي بعد could مباشرة.",
+      "B": "❌ 'went' ماضي، لكن بعد could نضع المصدر.",
+      "C": "✅ صحيح: بعد could نضع المصدر (go).",
+      "D": "❌ 'goes' مضارع للمفرد."
+    }
+  },
+  {
+    "text": "I wish I ______ better at math.",
+    "options": ["been", "were", "are", "is"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'been' تصريف ثالث، لا يصلح هنا.",
+      "B": "✅ صحيح: مع I wish للتعبير عن حالة غير حقيقية نستخدم were لجميع الضمائر (I wish I were).",
+      "C": "❌ 'are' مضارع مع الجمع.",
+      "D": "❌ 'is' مضارع مع المفرد."
+    }
+  },
+  {
+    "text": "I would rather ______ with you than stay here alone.",
+    "options": ["comes", "came", "coming", "come"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'comes' مضارع للمفرد.",
+      "B": "❌ 'came' ماضي.",
+      "C": "❌ 'coming' اسم فاعل.",
+      "D": "✅ صحيح: بعد 'would rather' نستخدم المصدر بدون to."
+    }
+  },
+  {
+    "text": "I would rather ______ the blue shirt.",
+    "options": ["buy", "bought", "buying", "buys"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'would rather' + مصدر بدون to (buy).",
+      "B": "❌ 'bought' ماضي أو تصريف ثالث.",
+      "C": "❌ 'buying' اسم فاعل.",
+      "D": "❌ 'buys' مضارع للمفرد."
+    }
+  },
+  {
+    "text": "I would rather ______ the meeting at 6 pm.",
+    "options": ["had", "having", "have", "has"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ 'had' ماضي، لا يستخدم بعد would rather مباشرة.",
+      "B": "❌ 'having' اسم فاعل.",
+      "C": "✅ صحيح: 'would rather have' = أفضل أن يكون الاجتماع...",
+      "D": "❌ 'has' مضارع للمفرد."
+    }
+  },
+  {
+    "text": "I would rather ______ the football game.",
+    "options": ["watches", "watch", "watching", "to watch"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'watches' مضارع للمفرد.",
+      "B": "✅ صحيح: 'would rather' + مصدر (watch).",
+      "C": "❌ 'watching' لا تستخدم مباشرة.",
+      "D": "❌ 'to watch' لا تستخدم مع would rather."
+    }
+  },
+  {
+    "text": "Choose the correct structure:",
+    "options": [
+      "If you touch a fire, you gets burned.",
+      "If you touch a fire, you get burned.",
+      "If you touch a fire, she get burned.",
+      "If he touch a fire, you get burned."
+    ],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'you gets' خطأ، الصحيح you get.",
+      "B": "✅ صحيح: If + مضارع بسيط, مضارع بسيط (you touch, you get).",
+      "C": "❌ 'she get' خطأ، الصحيح she gets.",
+      "D": "❌ 'he touch' خطأ، الصحيح he touches."
+    }
+  },
+  {
+    "text": "Choose the correct structure:",
+    "options": [
+      "I'd rather went to the cinema.",
+      "I'd rather going to the cinema.",
+      "I'd rather goes to the cinema.",
+      "I'd rather go to the cinema."
+    ],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'went' ماضي، لا يستخدم بعد 'd rather.",
+      "B": "❌ 'going' خطأ.",
+      "C": "❌ 'goes' خطأ.",
+      "D": "✅ صحيح: 'would rather' + مصدر بدون to."
+    }
+  },
+  {
+    "text": "Snakes bite if they (be) scared. [Correct the verb]",
+    "options": ["is", "are", "were", "been"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'is' للمفرد، لكن they جمع.",
+      "B": "✅ صحيح: الفاعل they جمع، نستخدم are.",
+      "C": "❌ 'were' ماضي، والجملة حقيقة عامة.",
+      "D": "❌ 'been' تصريف ثالث."
+    }
+  },
+  {
+    "text": "If Imad (does) go to the college, he is going to fail. [Change into negative]",
+    "options": [
+      "If Imad don't go...",
+      "If Imad doesn't go...",
+      "If Imad not go...",
+      "If Imad didn't go..."
+    ],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'don't' تستخدم مع I/you/we/they.",
+      "B": "✅ صحيح: نفي المضارع البسيط مع he/she/it هو doesn't + مصدر.",
+      "C": "❌ 'not go' ناقص فعل مساعد.",
+      "D": "❌ 'didn't' ماضي، والجملة عن المستقبل."
+    }
+  },
+  {
+    "text": "That was a health program to bene__it everyone.",
+    "options": ["(p)", "(h)", "(v)", "(f)"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'benepit' خطأ.",
+      "B": "❌ 'benehit' خطأ.",
+      "C": "❌ 'benevit' خطأ.",
+      "D": "✅ صحيح: 'benefit' تكتب بحرف f."
+    }
+  },
+  {
+    "text": "Conserv__tionists are trying to save the whale from extinction.",
+    "options": ["(i)", "(u)", "(a)", "(o)"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ 'conservitionists' خطأ.",
+      "B": "❌ 'conservutionists' خطأ.",
+      "C": "✅ صحيح: 'conservationists' بحرف a.",
+      "D": "❌ 'conservotionists' خطأ."
+    }
+  },
+  {
+    "text": "Display teams gather for the world's biggest airsh__w.",
+    "options": ["(e)", "(o)", "(i)", "(u)"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'airshew' خطأ.",
+      "B": "✅ صحيح: 'airshow' تكتب بحرف o.",
+      "C": "❌ 'airshiw' خطأ.",
+      "D": "❌ 'airshuw' خطأ."
+    }
+  },
+  {
+    "text": "Make another choic__.",
+    "options": ["(e)", "(i)", "(o)", "(a)"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'choice' تكتب بحرف e.",
+      "B": "❌ 'choici' خطأ.",
+      "C": "❌ 'choico' خطأ.",
+      "D": "❌ 'choica' خطأ."
+    }
+  },
+  {
+    "text": "The children have a happy env__ronment at school.",
+    "options": ["(e)", "(a)", "(u)", "(i)"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'enveronment' خطأ.",
+      "B": "❌ 'envaronment' خطأ.",
+      "C": "❌ 'envuronment' خطأ.",
+      "D": "✅ صحيح: 'environment' تكتب بحرف i."
+    }
+  },
+  {
+    "text": "The far__er sowed his field with wheat.",
+    "options": ["(b)", "(m)", "(t)", "(y)"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'farber' خطأ.",
+      "B": "✅ صحيح: 'farmer' تكتب بحرف m.",
+      "C": "❌ 'farter' خطأ.",
+      "D": "❌ 'faryer' خطأ."
+    }
+  },
+  {
+    "text": "Best wishes and congratulations on your gra__uation.",
+    "options": ["(d)", "(b)", "(q)", "(z)"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'graduation' تكتب بحرف d.",
+      "B": "❌ 'grabuation' خطأ.",
+      "C": "❌ 'graquation' خطأ.",
+      "D": "❌ 'grazuation' خطأ."
+    }
+  },
+  {
+    "text": "Air poll__tion is a serious global problem.",
+    "options": ["(a)", "(o)", "(u)", "(e)"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ 'pollation' خطأ.",
+      "B": "❌ 'pollotion' خطأ.",
+      "C": "✅ صحيح: 'pollution' تكتب بحرف u.",
+      "D": "❌ 'polletion' خطأ."
+    }
+  },
+  {
+    "text": "Does he have a __reference between coffee and tea?",
+    "options": ["(b)", "(p)", "(t)", "(d)"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'breference' خطأ.",
+      "B": "✅ صحيح: 'preference' تكتب بحرف p.",
+      "C": "❌ 'treference' خطأ.",
+      "D": "❌ 'dreference' خطأ."
+    }
+  },
+  {
+    "text": "We stay at a summer re__ort every year.",
+    "options": ["(z)", "(x)", "(c)", "(s)"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'rezort' خطأ.",
+      "B": "❌ 'rexort' خطأ.",
+      "C": "❌ 'recort' خطأ.",
+      "D": "✅ صحيح: 'resort' تكتب بحرف s."
+    }
+  },
+  {
+    "text": "I'd like a bus rou__e map.",
+    "options": ["(l)", "(h)", "(t)", "(r)"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ 'roule' خطأ.",
+      "B": "❌ 'rouhe' خطأ.",
+      "C": "✅ صحيح: 'route' تكتب بحرف t.",
+      "D": "❌ 'roure' خطأ."
+    }
+  },
+  {
+    "text": "The college granted him a scholarsh__p.",
+    "options": ["(i)", "(e)", "(a)", "(u)"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'scholarship' تكتب بحرف i.",
+      "B": "❌ 'scholarshep' خطأ.",
+      "C": "❌ 'scholarshap' خطأ.",
+      "D": "❌ 'scholarshup' خطأ."
+    }
+  },
+  {
+    "text": "Physics is my favorite sub__ect.",
+    "options": ["(p)", "(f)", "(l)", "(j)"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'subpect' خطأ.",
+      "B": "❌ 'subfect' خطأ.",
+      "C": "❌ 'sublect' خطأ.",
+      "D": "✅ صحيح: 'subject' تكتب بحرف j."
+    }
+  },
+  {
+    "text": "A moral person doesn't lie, chea__, or steal.",
+    "options": ["(b)", "(t)", "(g)", "(d)"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'cheab' خطأ.",
+      "B": "✅ صحيح: 'cheat' تكتب بحرف t.",
+      "C": "❌ 'cheag' خطأ.",
+      "D": "❌ 'chead' خطأ."
+    }
+  },
+  {
+    "text": "I won't __ail this time.",
+    "options": ["(f)", "(v)", "(r)", "(n)"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'fail' تكتب بحرف f.",
+      "B": "❌ 'vail' خطأ.",
+      "C": "❌ 'rail' خطأ.",
+      "D": "❌ 'nail' خطأ."
+    }
+  },
+  {
+    "text": "Living cells gen__rate energy from food.",
+    "options": ["(i)", "(u)", "(e)", "(a)"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ 'genirate' خطأ.",
+      "B": "❌ 'genurate' خطأ.",
+      "C": "✅ صحيح: 'generate' تكتب بحرف e.",
+      "D": "❌ 'genarate' خطأ."
+    }
+  },
+  {
+    "text": "He tries not to let business i__terfere with his home life.",
+    "options": ["(r)", "(z)", "(g)", "(n)"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'irterfere' خطأ.",
+      "B": "❌ 'izterfere' خطأ.",
+      "C": "❌ 'igterfere' خطأ.",
+      "D": "✅ صحيح: 'interfere' تكتب بحرف n."
+    }
+  },
+  {
+    "text": "I won't inter__ere with your work again.",
+    "options": ["(k)", "(f)", "(j)", "(v)"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ 'interkere' خطأ.",
+      "B": "✅ صحيح: 'interfere' تكتب بحرف f.",
+      "C": "❌ 'interjere' خطأ.",
+      "D": "❌ 'intervere' خطأ."
+    }
+  },
+  {
+    "text": "If I s__eed, I might have an accident.",
+    "options": ["(q)", "(b)", "(p)", "(d)"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ 'sqeed' خطأ.",
+      "B": "❌ 'sbeed' خطأ.",
+      "C": "✅ صحيح: 'speed' تكتب بحرف p.",
+      "D": "❌ 'sdeed' خطأ."
+    }
+  },
+  {
+    "text": "Don't in__olve other people in your trouble.",
+    "options": ["(j)", "(f)", "(s)", "(v)"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'injolve' خطأ.",
+      "B": "❌ 'involve' خطأ (الحرف v موجود لكنه الأول، السؤال عن الحرف الناقص v).",
+      "C": "❌ 'insolve' خطأ.",
+      "D": "✅ صحيح: 'involve' تكتب بحرف v."
+    }
+  },
+  {
+    "text": "The aircrafts display at ______.",
+    "options": ["advantage", "choice", "conservationist", "airshow"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'advantage' تعني ميزة، لا تناسب السياق.",
+      "B": "❌ 'choice' اختيار.",
+      "C": "❌ 'conservationist' محافظ على البيئة.",
+      "D": "✅ صحيح: 'airshow' عرض جوي."
+    }
+  },
+  {
+    "text": "I think I like that ______ better.",
+    "options": ["choice", "farmer", "pollution", "route"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'choice' اختيار.",
+      "B": "❌ 'farmer' مزارع.",
+      "C": "❌ 'pollution' تلوث.",
+      "D": "❌ 'route' طريق."
+    }
+  },
+  {
+    "text": "A ______ is working at the park.",
+    "options": ["conservationist", "environment", "subject", "resort"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'conservationist' شخص يحمي البيئة.",
+      "B": "❌ 'environment' بيئة (اسم مكان أو ظروف).",
+      "C": "❌ 'subject' مادة دراسية.",
+      "D": "❌ 'resort' منتجع."
+    }
+  },
+  {
+    "text": "This is bad for the ______.",
+    "options": ["farmer", "airshow", "environment", "choice"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ 'farmer' مزارع.",
+      "B": "❌ 'airshow' عرض جوي.",
+      "C": "✅ صحيح: 'environment' البيئة.",
+      "D": "❌ 'choice' اختيار."
+    }
+  },
+  {
+    "text": "______ sow seeds in the spring.",
+    "options": ["Farmers", "Conservationists", "Airshows", "Routes"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'farmers' المزارعون.",
+      "B": "❌ 'conservationists' نشطاء البيئة.",
+      "C": "❌ 'airshows' عروض جوية.",
+      "D": "❌ 'routes' طرق."
+    }
+  },
+  {
+    "text": "The rule for ______ is very simple.",
+    "options": ["graduation", "pollution", "preference", "scholarship"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'graduation' التخرج.",
+      "B": "❌ 'pollution' تلوث.",
+      "C": "❌ 'preference' تفضيل.",
+      "D": "❌ 'scholarship' منحة."
+    }
+  },
+  {
+    "text": "We took the ______ tour of the city.",
+    "options": ["scenic", "short", "bad", "ugly"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'scenic' ذو مناظر خلابة.",
+      "B": "❌ 'short' قصير، لكن التعبير الشائع scenic tour.",
+      "C": "❌ 'bad' سيء.",
+      "D": "❌ 'ugly' قبيح."
+    }
+  },
+  {
+    "text": "Take ______ of yourselves.",
+    "options": ["care", "fail", "cheat", "speed"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'take care of' يعتني بـ.",
+      "B": "❌ 'fail' يفشل.",
+      "C": "❌ 'cheat' يغش.",
+      "D": "❌ 'speed' سرعة."
+    }
+  },
+  {
+    "text": "English is my favorite ______.",
+    "options": ["subject", "benefit", "resort", "route"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'subject' مادة دراسية.",
+      "B": "❌ 'benefit' فائدة.",
+      "C": "❌ 'resort' منتجع.",
+      "D": "❌ 'route' طريق."
+    }
+  },
+  {
+    "text": "Tom got the ______ to study abroad.",
+    "options": ["scholarship", "airshow", "choice", "farmer"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'scholarship' منحة دراسية.",
+      "B": "❌ 'airshow' عرض جوي.",
+      "C": "❌ 'choice' اختيار.",
+      "D": "❌ 'farmer' مزارع."
+    }
+  },
+  {
+    "text": "I know a shorter ______.",
+    "options": ["route", "resort", "subject", "care"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'route' طريق.",
+      "B": "❌ 'resort' منتجع.",
+      "C": "❌ 'subject' مادة.",
+      "D": "❌ 'care' عناية."
+    }
+  },
+  {
+    "text": "We stay at a beach ______.",
+    "options": ["resort", "route", "choice", "benefit"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'resort' منتجع.",
+      "B": "❌ 'route' طريق.",
+      "C": "❌ 'choice' اختيار.",
+      "D": "❌ 'benefit' فائدة."
+    }
+  },
+  {
+    "text": "Do you have a color ______?",
+    "options": ["preference", "pollution", "graduation", "conservationist"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'preference' تفضيل.",
+      "B": "❌ 'pollution' تلوث.",
+      "C": "❌ 'graduation' تخرج.",
+      "D": "❌ 'conservationist' شخص."
+    }
+  },
+  {
+    "text": "______ is everywhere in big cities.",
+    "options": ["Pollution", "Choice", "Subject", "Scholarship"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'pollution' تلوث.",
+      "B": "❌ 'choice' اختيار.",
+      "C": "❌ 'subject' مادة.",
+      "D": "❌ 'scholarship' منحة."
+    }
+  },
+  {
+    "text": "Sports ______ to human health.",
+    "options": ["benefit", "fail", "generate", "interfere"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'benefit' تفيد (فعل).",
+      "B": "❌ 'fail' تفشل.",
+      "C": "❌ 'generate' تولد.",
+      "D": "❌ 'interfere' تتدخل."
+    }
+  },
+  {
+    "text": "I don't want to ______ my exams.",
+    "options": ["fail", "pass", "speed", "care"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'fail' أفشل.",
+      "B": "❌ 'pass' أنجح، لكن الجملة منفية (don't want to fail) لا أريد أن أفشل.",
+      "C": "❌ 'speed' سرعة.",
+      "D": "❌ 'care' رعاية."
+    }
+  },
+  {
+    "text": "The antonym (عكس) of 'fail' is ______.",
+    "options": ["pass", "cheat", "speed", "protest"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'pass' ينجح (عكس يفشل).",
+      "B": "❌ 'cheat' يغش.",
+      "C": "❌ 'speed' سرعة.",
+      "D": "❌ 'protest' يحتج."
+    }
+  },
+  {
+    "text": "This machine ______ electricity.",
+    "options": ["generates", "fails", "interferes", "protests"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'generates' تولد.",
+      "B": "❌ 'fails' تفشل.",
+      "C": "❌ 'interferes' تتداخل.",
+      "D": "❌ 'protests' تحتج."
+    }
+  },
+  {
+    "text": "It is wrong to ______ at cards.",
+    "options": ["cheat", "care", "pass", "graduate"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'cheat' يغش.",
+      "B": "❌ 'care' يعتني.",
+      "C": "❌ 'pass' ينجح.",
+      "D": "❌ 'graduate' يتخرج."
+    }
+  },
+  {
+    "text": "Our talking ______ with my work.",
+    "options": ["interferes", "generates", "protests", "benefits"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'interferes' يتداخل أو يعيق.",
+      "B": "❌ 'generates' يولد.",
+      "C": "❌ 'protests' يحتج.",
+      "D": "❌ 'benefits' يفيد."
+    }
+  },
+  {
+    "text": "They ______ against the war.",
+    "options": ["protest", "cheat", "fail", "speed"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'protest' يحتجون.",
+      "B": "❌ 'cheat' يغشون.",
+      "C": "❌ 'fail' يفشلون.",
+      "D": "❌ 'speed' يسرعون."
+    }
+  },
+  {
+    "text": "I'd like to ______ next spring.",
+    "options": ["graduate", "fail", "cheat", "interfere"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'graduate' أتخرج.",
+      "B": "❌ 'fail' أفشل.",
+      "C": "❌ 'cheat' أغش.",
+      "D": "❌ 'interfere' أتدخل."
+    }
+  },
+  {
+    "text": "It will be to your ______ to arrive early.",
+    "options": ["benefit", "choice", "airshow", "farmer"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'to your benefit' لمصلحتك.",
+      "B": "❌ 'choice' اختيار.",
+      "C": "❌ 'airshow' عرض جوي.",
+      "D": "❌ 'farmer' مزارع."
+    }
+  },
+  {
+    "text": "The ______ of the aircrafts runs Aug. 16 to 18.",
+    "options": ["airshow", "graduation", "environment", "resort"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'airshow' عرض جوي.",
+      "B": "❌ 'graduation' تخرج.",
+      "C": "❌ 'environment' بيئة.",
+      "D": "❌ 'resort' منتجع."
+    }
+  },
+  {
+    "text": "You have three ______.",
+    "options": ["choices", "routes", "airshows", "resorts"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'choices' خيارات.",
+      "B": "❌ 'routes' طرق.",
+      "C": "❌ 'airshows' عروض جوية.",
+      "D": "❌ 'resorts' منتجعات."
+    }
+  },
+  {
+    "text": "______ are fighting to save our environment.",
+    "options": ["Conservationists", "Farmers", "Airshows", "Subjects"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'Conservationists' ناشطو البيئة.",
+      "B": "❌ 'Farmers' مزارعون.",
+      "C": "❌ 'Airshows' عروض جوية.",
+      "D": "❌ 'Subjects' مواد دراسية."
+    }
+  },
+  {
+    "text": "We must try to protect the ______.",
+    "options": ["environment", "conservationist", "farmer", "pollution"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'environment' البيئة.",
+      "B": "❌ 'conservationist' شخص.",
+      "C": "❌ 'farmer' مزارع.",
+      "D": "❌ 'pollution' تلوث."
+    }
+  },
+  {
+    "text": "He bought eggs and milk from a ______.",
+    "options": ["farmer", "benefit", "subject", "resort"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'farmer' مزارع.",
+      "B": "❌ 'benefit' فائدة.",
+      "C": "❌ 'subject' مادة.",
+      "D": "❌ 'resort' منتجع."
+    }
+  },
+  {
+    "text": "We had a party to celebrate her ______ from high school.",
+    "options": ["graduation", "airshow", "pollution", "choice"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'graduation' التخرج.",
+      "B": "❌ 'airshow' عرض جوي.",
+      "C": "❌ 'pollution' تلوث.",
+      "D": "❌ 'choice' اختيار."
+    }
+  },
+  {
+    "text": "______ is damaging our earth.",
+    "options": ["Pollution", "Resort", "Route", "Airshow"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'Pollution' التلوث.",
+      "B": "❌ 'Resort' منتجع.",
+      "C": "❌ 'Route' طريق.",
+      "D": "❌ 'Airshow' عرض جوي."
+    }
+  },
+  {
+    "text": "I have a ______ for sweet food over spicy.",
+    "options": ["preference", "graduation", "choice", "scholarship"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'preference' تفضيل.",
+      "B": "❌ 'graduation' تخرج.",
+      "C": "❌ 'choice' اختيار (تستخدم مع make a choice، لكن مع for نستخدم preference).",
+      "D": "❌ 'scholarship' منحة."
+    }
+  },
+  {
+    "text": "They went to a ______ in the mountains last summer.",
+    "options": ["resort", "route", "subject", "choice"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'resort' منتجع.",
+      "B": "❌ 'route' طريق.",
+      "C": "❌ 'subject' مادة.",
+      "D": "❌ 'choice' اختيار."
+    }
+  },
+  {
+    "text": "What's the shortest ______ to the station?",
+    "options": ["route", "farmer", "resort", "subject"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'route' طريق.",
+      "B": "❌ 'farmer' مزارع.",
+      "C": "❌ 'resort' منتجع.",
+      "D": "❌ 'subject' مادة."
+    }
+  },
+  {
+    "text": "He won the ______ to Harvard University.",
+    "options": ["scholarship", "airshow", "subject", "pollution"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'scholarship' منحة دراسية.",
+      "B": "❌ 'airshow' عرض جوي.",
+      "C": "❌ 'subject' مادة.",
+      "D": "❌ 'pollution' تلوث."
+    }
+  },
+  {
+    "text": "History is my favorite ______ at school.",
+    "options": ["subject", "benefit", "environment", "farmer"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'subject' مادة دراسية.",
+      "B": "❌ 'benefit' فائدة.",
+      "C": "❌ 'environment' بيئة.",
+      "D": "❌ 'farmer' مزارع."
+    }
+  },
+  {
+    "text": "They took the ______ route back to the hotel.",
+    "options": ["scenic", "small", "bad", "ugly"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'scenic' خلابة.",
+      "B": "❌ 'small' صغير، لا تصف طريقاً عادة.",
+      "C": "❌ 'bad' سيء.",
+      "D": "❌ 'ugly' قبيح."
+    }
+  },
+  {
+    "text": "The child is in the ______ of her grandparents.",
+    "options": ["care", "fail", "cheat", "interfere"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'in the care of' في رعاية.",
+      "B": "❌ 'fail' يفشل.",
+      "C": "❌ 'cheat' يغش.",
+      "D": "❌ 'interfere' يتدخل."
+    }
+  },
+  {
+    "text": "He's a ______ and a liar.",
+    "options": ["cheat", "graduate", "pass", "speed"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'cheat' غشاش.",
+      "B": "❌ 'graduate' خريج.",
+      "C": "❌ 'pass' نجاح.",
+      "D": "❌ 'speed' سرعة."
+    }
+  },
+  {
+    "text": "I don't want to ______ my exams.",
+    "options": ["fail", "speed", "generate", "care"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'fail' أفشل.",
+      "B": "❌ 'speed' سرعة.",
+      "C": "❌ 'generate' يولد.",
+      "D": "❌ 'care' رعاية."
+    }
+  },
+  {
+    "text": "The program would ______ a lot of new jobs.",
+    "options": ["generate", "protest", "involve", "care"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'generate' تولد / تخلق.",
+      "B": "❌ 'protest' تحتج.",
+      "C": "❌ 'involve' تشمل.",
+      "D": "❌ 'care' تعتني."
+    }
+  },
+  {
+    "text": "The sport will ______ with your studies.",
+    "options": ["interfere", "generate", "pass", "speed"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'interfere with' تتعارض مع.",
+      "B": "❌ 'generate' تولد.",
+      "C": "❌ 'pass' تنجح.",
+      "D": "❌ 'speed' سرعة."
+    }
+  },
+  {
+    "text": "American workers began to ______ against low wages.",
+    "options": ["protest", "cheat", "speed", "fail"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'protest' يحتجون.",
+      "B": "❌ 'cheat' يغشون.",
+      "C": "❌ 'speed' يسرعون.",
+      "D": "❌ 'fail' يفشلون."
+    }
+  },
+  {
+    "text": "People made a ______ about the rise in prices.",
+    "options": ["protest", "cheat", "interfere", "graduate"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'made a protest' قدموا احتجاجاً.",
+      "B": "❌ 'cheat' غش.",
+      "C": "❌ 'interfere' تدخل.",
+      "D": "❌ 'graduate' تخرج."
     }
   },
   {
     "text": "The main idea of the text is:",
-    "options": ["A best friend is a treasure", "Studying is important", "Pets are fun", "Family life"],
+    "options": ["A friend is a treasure.", "A wonderful pet.", "Study hard.", "Playing games."],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: النص يبدأ بجملة 'A best friend is the most special treasure...' ويدور حول الصداقة.",
-      "B": "❌ الدراسة جزء صغير من النص.",
-      "C": "❌ الجرو مذكور لكنه ليس الفكرة الرئيسية.",
-      "D": "❌ الأسرة مذكورة عرضاً."
+      "A": "✅ صحيح: النص كله يتحدث عن قيمة الصديق الحقيقي.",
+      "B": "❌ الجرو جزء صغير.",
+      "C": "❌ الدراسة ذكرت ولكنها ليست المحور.",
+      "D": "❌ اللعب جزء من الأنشطة وليس الفكرة الرئيسية."
     }
   },
   {
-    "text": "The opposite of 'best' is:",
-    "options": ["good", "better", "worst", "bad"],
-    "correct": "C",
-    "explanation": {
-      "A": "❌ 'good' هي الصفة الأصلية.",
-      "B": "❌ 'better' صيغة مقارنة وليست عكساً.",
-      "C": "✅ صحيح: عكس 'best' (الأفضل) هو 'worst' (الأسوأ).",
-      "D": "❌ 'bad' سيء لكن ليست صيغة التفضيل القصوى."
-    }
-  },
-  {
-    "text": "The pronoun 'He' in line 3 refers to:",
-    "options": ["the teacher", "Raad", "the puppy", "the father"],
+    "text": "In line 5, 'younger' is the opposite of:",
+    "options": ["tall", "elder", "best", "small"],
     "correct": "B",
     "explanation": {
-      "A": "❌ المعلم مذكور لكن السياق عن Raad.",
-      "B": "✅ صحيح: الجملة تقول 'He studies in my class' بعد ذكر Raad مباشرة.",
-      "C": "❌ الجرو يسمى 'puppy' وليس 'He' في هذا الموضع.",
-      "D": "❌ الأب يأتي لاحقاً."
+      "A": "❌ 'tall' طويل.",
+      "B": "✅ صحيح: 'elder' أكبر سناً، عكس 'younger' أصغر سناً.",
+      "C": "❌ 'best' الأفضل.",
+      "D": "❌ 'small' صغير الحجم."
     }
   },
   {
-    "text": "True or False: Raad has a cat at home.",
+    "text": "In line 3, 'He' refers to:",
+    "options": ["mother", "puppy", "Raad", "teacher"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ الأم مؤنث.",
+      "B": "❌ الجرو حيوان وليس محور الحديث هنا.",
+      "C": "✅ صحيح: 'He' يعود إلى Raad الذي تم ذكره في الجملة السابقة.",
+      "D": "❌ المعلم لم يذكر قبلها مباشرة."
+    }
+  },
+  {
+    "text": "A synonym of 'smart' is:",
+    "options": ["dark", "polite", "well", "brilliant"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ 'dark' مظلم.",
+      "B": "❌ 'polite' مؤدب.",
+      "C": "❌ 'well' جيد (حال).",
+      "D": "✅ صحيح: 'brilliant' تعني ذكي جداً، مرادف لـ smart."
+    }
+  },
+  {
+    "text": "Raad and his friend share their:",
+    "options": ["video", "lunch boxes", "class", "books"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ الفيديو يشاهدونه لكن لا يشاركونه.",
+      "B": "✅ صحيح: النص يقول 'We share our lunch boxes'.",
+      "C": "❌ هم في نفس الصف لكن لم يذكر أنهم يتشاركونه.",
+      "D": "❌ يقرؤون كتباً لكن لا يتشاركونها بالضرورة."
+    }
+  },
+  {
+    "text": "The father brings chocolates to Raad and his friend. (True/False)",
+    "options": ["True", "False"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: النص يقول 'His father brings chocolates for Raad and me.'",
+      "B": "❌ خطأ."
+    }
+  },
+  {
+    "text": "Raad has a rabbit at his home. (True/False)",
     "options": ["True", "False"],
     "correct": "B",
     "explanation": {
       "A": "❌ خطأ.",
-      "B": "✅ صحيح: النص يقول 'He also has a puppy' (جرو) وليس قطة."
-    }
-  },
-  {
-    "text": "True or False: They share their lunch boxes at school.",
-    "options": ["True", "False"],
-    "correct": "A",
-    "explanation": {
-      "A": "✅ صحيح: النص يقول 'We share our lunch boxes at school'.",
-      "B": "❌ خطأ."
+      "B": "✅ صحيح: النص يقول 'He also has a puppy' (جرو) وليس أرنباً."
     }
   }
 ]
