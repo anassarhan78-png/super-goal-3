@@ -1,0 +1,48 @@
+{
+  "title": "📘 شرح قواعد الوحدة 11 – الجمل الشرطية (If Clauses)",
+  "topics": [
+    {
+      "name": "🔷 1. النوع الأول: الاحتمال الحقيقي (First Conditional)",
+      "rule": "نستخدمه للتحدث عن أشياء محتملة الحدوث في المستقبل إذا تحقق شرط معين.",
+      "form": "If + مضارع بسيط, will + مصدر",
+      "examples": [
+        "If Raad comes early, we will go to the library.",
+        "If you study hard, you will pass the exam.",
+        "I will buy a gift if I have enough money."
+      ],
+      "notes": [
+        "يمكن أن يأتي جواب الشرط قبل If بدون فاصلة: I will go if it doesn't rain."
+      ]
+    },
+    {
+      "name": "🔷 2. النوع الثاني: الخيال أو الافتراض غير الواقعي (Second Conditional)",
+      "rule": "نستخدمه للتحدث عن مواقف غير حقيقية في الحاضر أو المستقبل (أحلام، أمنيات).",
+      "form": "If + ماضي بسيط, would + مصدر",
+      "examples": [
+        "If I were rich, I would buy a big house.",
+        "If Raad had a car, he would drive us to school.",
+        "I would travel the world if I had more time."
+      ],
+      "special_case": "مع الضمير 'I' و 'he/she/it' نستخدم 'were' غالباً في اللغة الرسمية: If I were you..."
+    },
+    {
+      "name": "🔷 3. النوع الصفري: الحقائق العامة (Zero Conditional)",
+      "rule": "نستخدمه للتعبير عن حقائق علمية أو أشياء صحيحة دائماً.",
+      "form": "If + مضارع بسيط, مضارع بسيط",
+      "examples": [
+        "If you heat water, it boils.",
+        "If it rains, the grass gets wet."
+      ]
+    },
+    {
+      "name": "🔷 4. كلمات الربط والظروف",
+      "words": [
+        "probably",
+        "possibly",
+        "definitely",
+        "certainly"
+      ],
+      "example": "If it rains, we will probably stay home."
+    }
+  ]
+}
