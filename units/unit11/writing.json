@@ -1,0 +1,31 @@
+{
+  "title": "✍️ كتابة فقرة عن أفضل صديق",
+  "steps": [
+    {
+      "step": 1,
+      "title": "اختر صديقك",
+      "explanation": "فكر في أفضل صديق لك. ما اسمه؟ منذ متى تعرفه؟"
+    },
+    {
+      "step": 2,
+      "title": "صف صفاته",
+      "explanation": "استخدم صفات مثل: kind, funny, studious, helpful, tall, friendly."
+    },
+    {
+      "step": 3,
+      "title": "اذكر الأنشطة المشتركة",
+      "explanation": "ماذا تفعلون معاً؟ مثلاً: play football, study together, share lunch, play video games."
+    },
+    {
+      "step": 4,
+      "title": "اختم برأيك",
+      "explanation": "لماذا هو مميز؟ مثال: He is like a brother to me. / A true friend is a treasure."
+    }
+  ],
+  "useful_vocabulary": {
+    "adjectives": ["kind", "honest", "funny", "helpful", "loyal", "smart"],
+    "activities": ["play sports", "do homework", "watch movies", "go to the library"],
+    "phrases": ["I am lucky to have him.", "We get along very well.", "He always supports me."]
+  },
+  "model_paragraph": "My best friend is Ahmed. We have been friends since primary school. He is tall, funny, and very kind. We play football together every weekend and share our snacks at school. Ahmed always helps me with my homework when I find it difficult. I think a true friend is a treasure, and Ahmed is definitely a treasure in my life."
+}
