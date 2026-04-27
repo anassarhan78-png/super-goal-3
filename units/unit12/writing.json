@@ -1,0 +1,25 @@
+{
+  "title": "📝 كتابة بريد إلكتروني عن الاختلافات الثقافية (Cultural Differences)",
+  "introduction": "تخيل أنك في بلد أجنبي. اكتب بريداً إلكترونياً إلى صديق تخبره فيه عن الاختلافات الثقافية التي لاحظتها (العادات، الأكل، التحيات، إلخ).",
+  "model": "To: Norah@qmai.com\nFrom: Tala2022@yahoo.com\nSubject: Cultural differences\n\nDear Norah,\n\nHow are you and your family? I am happy to write this email to tell you about my life in China and the new cultural differences I have experienced here in Beijing. Beijing has a wealth of traditional culture like Beijing Opera, Chinese painting and calligraphy as well as the old Chinese features Chinese silk and tea. China is a city crowded with tourists from all over the world. They eat with chopsticks not spoons. Drinking tea traditionally, a visitor to a Chinese home is expected to sit down and drink tea while talking.\n\nI am looking forward to hearing from you.\nYour friend,\nTala",
+  "prompts": [
+    "1. What is the name of the foreign country you are visiting?",
+    "2. What cultural differences have you observed (food, greetings, customs)?",
+    "3. How do people eat? What do they eat?",
+    "4. What advice would you give to someone visiting that country?"
+  ],
+  "vocabulary": [
+    "customs (تقاليد)",
+    "chopsticks (عيدان أكل)",
+    "hospitality (كرم الضيافة)",
+    "respect (احترام)",
+    "greeting (تحية)",
+    "traditional (تقليدي)",
+    "cuisine (مطبخ/طعام)"
+  ],
+  "checklist": [
+    "✅ هل استخدمت تنسيق البريد الإلكتروني (To, From, Subject, Salutation, Closing)?",
+    "✅ هل وصفت عادات محددة؟",
+    "✅ هل استخدمت مفردات الوحدة (chopsticks, host, guest, custom)?"
+  ]
+}

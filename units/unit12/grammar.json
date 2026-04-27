@@ -1,0 +1,66 @@
+{
+  "title": "📘 قواعد الوحدة 12: Verb + Infinitive / Verb + Object + Infinitive / Gerunds / Past Perfect",
+  "topics": [
+    {
+      "name": "1. الأفعال التي تتبعها to + infinitive",
+      "rule": "هناك أفعال مثل: afford, choose, decide, expect, forget, hope, learn, manage, offer, promise, refuse, remember, try. تأتي بعدها to + المصدر.",
+      "examples": [
+        "I decided to study harder.",
+        "She promised to call me.",
+        "Don't forget to lock the door."
+      ]
+    },
+    {
+      "name": "2. الأفعال التي تتبعها كائن (pronoun/noun) + to + infinitive",
+      "rule": "بعض الأفعال تسمح بوضع مفعول به (me, him, us...) ثم to + مصدر: allow, expect, need, want, ask, etc.",
+      "examples": [
+        "He allowed me to use his computer.",
+        "They expect him to arrive early.",
+        "She asked me to help her."
+      ]
+    },
+    {
+      "name": "3. الأفعال التي تتبعها gerund (V-ing)",
+      "rule": "أفعال مثل: avoid, enjoy, suggest, finish, mind. تأتي بعدها V-ing (gerund).",
+      "examples": [
+        "She avoided telling him.",
+        "He enjoys playing tennis.",
+        "Sam suggested meeting at the station."
+      ]
+    },
+    {
+      "name": "4. Gerund كفاعل للجملة",
+      "rule": "نستخدم الفعل + ing كفاعل للجملة (موضوع الجملة).",
+      "examples": [
+        "Cooking is my hobby.",
+        "Doing homework is boring.",
+        "Traveling is fun."
+      ]
+    },
+    {
+      "name": "5. Past Perfect Tense (الماضي التام)",
+      "rule": "نستخدم past perfect (had + past participle) للتعبير عن حدث وقع قبل حدث آخر في الماضي. نستخدمه مع after, before, by the time, already.",
+      "examples": [
+        "I had written the article before he came.",
+        "After she had gone to the hotel, she exchanged money.",
+        "The film had started before I ate dinner."
+      ]
+    },
+    {
+      "name": "6. It's + adjective + to + verb ( للتعبير عن النصيحة)",
+      "rule": "نستخدم It's + صفة + to + مصدر لإعطاء نصيحة أو حكم.",
+      "examples": [
+        "It's polite to let a person finish speaking.",
+        "It's rude to interrupt.",
+        "It's a good idea to write a thank-you note."
+      ]
+    }
+  ],
+  "common_mistakes": [
+    "❌ She avoided to tell him. → ✅ She avoided telling him.",
+    "❌ I suggested to go. → ✅ I suggested going.",
+    "❌ He decided going. → ✅ He decided to go.",
+    "❌ I expect he comes. → ✅ I expect him to come.",
+    "❌ I had wrote the letter. → ✅ I had written the letter."
+  ]
+}

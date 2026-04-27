@@ -1,0 +1,146 @@
+[
+  {
+    "text": "What does 'break' mean (as in 'coffee break')?",
+    "options": ["فترة استراحة قصيرة", "كسر", "بداية", "نهاية"],
+    "correct": "فترة استراحة قصيرة",
+    "explanation": "✅ break: فترة توقف قصيرة للراحة. ❌ كسر، بداية، نهاية."
+  },
+  {
+    "text": "What does 'allow' mean?",
+    "options": ["يمنع", "يسمح", "يساعد", "يكسر"],
+    "correct": "يسمح",
+    "explanation": "✅ allow: يسمح. ❌ يمنع (block)، يساعد (help)، يكسر (break)."
+  },
+  {
+    "text": "What does 'adjust' mean?",
+    "options": ["يكسر", "يتكيف", "يسرع", "يتوقع"],
+    "correct": "يتكيف",
+    "explanation": "✅ adjust: يتكيف مع وضع جديد. ❌ يكسر، يسرع، يتوقع."
+  },
+  {
+    "text": "What does 'topic' mean?",
+    "options": ["موضوع", "غبار", "هدية", "حفلة"],
+    "correct": "موضوع",
+    "explanation": "✅ topic: موضوع للنقاش. ❌ غبار (dust)، هدية (gift)، حفلة (party)."
+  },
+  {
+    "text": "What does 'tip' (noun) mean?",
+    "options": ["نصيحة / بقشيش", "غبار", "طرف", "صدمة"],
+    "correct": "نصيحة / بقشيش",
+    "explanation": "✅ tip: بقشيش أو نصيحة. ❌ غبار، طرف، صدمة."
+  },
+  {
+    "text": "What does 'surname' mean?",
+    "options": ["اسم العائلة", "الاسم الأول", "اللقب", "الكنية"],
+    "correct": "اسم العائلة",
+    "explanation": "✅ surname: اسم العائلة (last name). ❌ الاسم الأول (first name)."
+  },
+  {
+    "text": "What does 'shock' mean?",
+    "options": ["صدمة", "هدية", "غبار", "موكب"],
+    "correct": "صدمة",
+    "explanation": "✅ shock: صدمة (حدث مفاجئ). ❌ هدية (gift)، غبار (dust)، موكب (parade)."
+  },
+  {
+    "text": "What does 'porter' mean?",
+    "options": ["حمال", "طباخ", "سائق", "محام"],
+    "correct": "حمال",
+    "explanation": "✅ porter: حمال أمتعة. ❌ طباخ (cook)، سائق (driver)، محام (lawyer)."
+  },
+  {
+    "text": "What does 'pocket' mean?",
+    "options": ["جيب", "حقيبة", "ظرف", "صندوق"],
+    "correct": "جيب",
+    "explanation": "✅ pocket: جيب في الملابس. ❌ حقيبة (bag)، ظرف (envelope)، صندوق (box)."
+  },
+  {
+    "text": "What does 'mud' mean?",
+    "options": ["طين", "غبار", "تراب", "رمل"],
+    "correct": "طين",
+    "explanation": "✅ mud: طين رطب. ❌ غبار (dust)، تراب (soil)، رمل (sand)."
+  },
+  {
+    "text": "What does 'host' mean?",
+    "options": ["مضيف", "ضيف", "حمال", "محام"],
+    "correct": "مضيف",
+    "explanation": "✅ host: الشخص الذي يستقبل الضيوف. ❌ ضيف (guest)، حمال (porter)، محام (lawyer)."
+  },
+  {
+    "text": "What does 'guest' mean?",
+    "options": ["ضيف", "مضيف", "حمال", "صديق"],
+    "correct": "ضيف",
+    "explanation": "✅ guest: شخص تتم دعوته. ❌ مضيف (host)، حمال (porter)، صديق (friend)."
+  },
+  {
+    "text": "What does 'dust' mean?",
+    "options": ["غبار", "طين", "رمل", "تراب"],
+    "correct": "غبار",
+    "explanation": "✅ dust: غبار ناعم. ❌ طين (mud)، رمل (sand)، تراب (soil)."
+  },
+  {
+    "text": "What does 'custom' mean?",
+    "options": ["عادة / تقاليد", "موضوع", "جيب", "صدمة"],
+    "correct": "عادة / تقاليد",
+    "explanation": "✅ custom: سلوك تقليدي متبع. ❌ موضوع (topic)، جيب (pocket)، صدمة (shock)."
+  },
+  {
+    "text": "What does 'chopsticks' mean?",
+    "options": ["عيدان أكل", "سكاكين", "شوك", "ملاعق"],
+    "correct": "عيدان أكل",
+    "explanation": "✅ chopsticks: عيدان تستخدم للأكل في بعض الثقافات. ❌ سكاكين (knives)، شوك (forks)، ملاعق (spoons)."
+  },
+  {
+    "text": "What does 'impression' mean?",
+    "options": ["انطباع", "موضوع", "هدية", "حفلة"],
+    "correct": "انطباع",
+    "explanation": "✅ impression: فكرة أو رأي يتكون عن شخص أو شيء. ❌ موضوع (topic)، هدية (gift)، حفلة (party)."
+  },
+  {
+    "text": "What does 'lawyer' mean?",
+    "options": ["محامٍ", "قاضٍ", "شرطي", "حمال"],
+    "correct": "محامٍ",
+    "explanation": "✅ lawyer: شخص يمارس المحاماة. ❌ قاضٍ (judge)، شرطي (policeman)، حمال (porter)."
+  },
+  {
+    "text": "What does 'exchange' mean?",
+    "options": ["يتبادل", "يسمح", "يمنع", "يتكيف"],
+    "correct": "يتبادل",
+    "explanation": "✅ exchange: يأخذ ويعطي. ❌ يسمح (allow)، يمنع (block)، يتكيف (adjust)."
+  },
+  {
+    "text": "What does 'rush' mean?",
+    "options": ["يسرع", "يسترخي", "ينتظر", "يتأخر"],
+    "correct": "يسرع",
+    "explanation": "✅ rush: يتحرك بسرعة. ❌ يسترخي (relax)، ينتظر (wait)، يتأخر (be late)."
+  },
+  {
+    "text": "What does 'punctual' mean?",
+    "options": ["دقيق في المواعيد", "متأخر", "سريع", "بطيء"],
+    "correct": "دقيق في المواعيد",
+    "explanation": "✅ punctual: يصل في الوقت المحدد. ❌ متأخر (late)، سريع (fast)، بطيء (slow)."
+  },
+  {
+    "text": "What does 'block' mean?",
+    "options": ["يمنع الوصول", "يسمح", "يساعد", "ينظف"],
+    "correct": "يمنع الوصول",
+    "explanation": "✅ block: يمنع المرور. ❌ يسمح (allow)، يساعد (help)، ينظف (clean)."
+  },
+  {
+    "text": "What does 'spear' mean?",
+    "options": ["يطعن بالشوكة", "يرمي", "يكسر", "يلتقط"],
+    "correct": "يطعن بالشوكة",
+    "explanation": "✅ spear: يغرس أداة حادة في شيء لرفعه. ❌ يرمي (throw)، يكسر (break)، يلتقط (pick up)."
+  },
+  {
+    "text": "What does 'comment' mean?",
+    "options": ["تعليق", "سؤال", "إجابة", "طلب"],
+    "correct": "تعليق",
+    "explanation": "✅ comment: رأي أو ملاحظة. ❌ سؤال (question)، إجابة (answer)، طلب (request)."
+  },
+  {
+    "text": "What does 'bump' mean?",
+    "options": ["يصطدم", "يقفز", "يركض", "يسقط"],
+    "correct": "يصطدم",
+    "explanation": "✅ bump: يضرب بشيء. ❌ يقفز (jump)، يركض (run)، يسقط (fall)."
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "text": "She avoided ........... him about her plans.",
+    "options": ["told", "telling", "tells", "tell"],
+    "correct": "B",
+    "explanation": "✅ avoid + gerund (V-ing). ❌ told (ماضي)، tells (مضارع)، tell (مصدر)."
+  },
+  {
+    "text": "He enjoys ........... a bath in the evening.",
+    "options": ["has", "had", "having", "have"],
+    "correct": "C",
+    "explanation": "✅ enjoy + gerund. ❌ has/have (مضارع)، had (ماضي)."
+  },
+  {
+    "text": "Sam suggested ........... at the station.",
+    "options": ["meets", "met", "meet", "meeting"],
+    "correct": "D",
+    "explanation": "✅ suggest + gerund. ❌ meets/met (أفعال)، meet (مصدر)."
+  },
+  {
+    "text": "He decided ........... with Khaled instead.",
+    "options": ["to go", "go", "went", "going"],
+    "correct": "A",
+    "explanation": "✅ decide + to + infinitive. ❌ go (بدون to)، went (ماضي)، going (gerund)."
+  },
+  {
+    "text": "She promised ........... me there.",
+    "options": ["takes", "took", "to take", "taking"],
+    "correct": "C",
+    "explanation": "✅ promise + to + infinitive. ❌ takes (مضارع)، took (ماضي)، taking (gerund)."
+  },
+  {
+    "text": "She didn't forget ...........",
+    "options": ["phoned", "to phone", "phoning", "phones"],
+    "correct": "B",
+    "explanation": "✅ forget + to + infinitive (في النفي). ❌ phoned (ماضي)، phoning (gerund)، phones (مضارع)."
+  },
+  {
+    "text": "I never remember ........... the door.",
+    "options": ["to lock", "locked", "locks", "locking"],
+    "correct": "A",
+    "explanation": "✅ remember + to + infinitive (لتذكُّر شيء لم يفعله بعد). ❌ locked/locks (أفعال)، locking (gerund)."
+  },
+  {
+    "text": "Where did you learn ........... Spanish?",
+    "options": ["spoke", "spoken", "to speak", "speaking"],
+    "correct": "C",
+    "explanation": "✅ learn + to + infinitive. ❌ spoke (ماضي)، spoken (تصريف ثالث)، speaking (gerund)."
+  },
+  {
+    "text": "Frank offered ........... us paint the house.",
+    "options": ["to help", "helping", "helps", "helped"],
+    "correct": "A",
+    "explanation": "✅ offer + to + infinitive. ❌ helping (gerund)، helps (مضارع)، helped (ماضي)."
+  },
+  {
+    "text": "Sandra decided ........... economics in London.",
+    "options": ["studying", "studies", "studied", "to study"],
+    "correct": "D",
+    "explanation": "✅ decide + to + infinitive. ❌ studying (gerund)، studies (مضارع)، studied (ماضي)."
+  },
+  {
+    "text": "I'm hoping ........... Lisa.",
+    "options": ["see", "to see", "seeing", "saw"],
+    "correct": "B",
+    "explanation": "✅ hope + to + infinitive. ❌ see (مصدر بدون to)، seeing (gerund)، saw (ماضي)."
+  },
+  {
+    "text": "I expect ...........",
+    "options": ["to succeed", "succeeds", "succeeding", "succeed"],
+    "correct": "A",
+    "explanation": "✅ expect + to + infinitive. ❌ succeeds (مضارع مفرد)، succeeding (gerund)، succeed (بدون to)."
+  },
+  {
+    "text": "We can't afford ........... on holiday.",
+    "options": ["to go", "go", "going", "went"],
+    "correct": "A",
+    "explanation": "✅ afford + to + infinitive. ❌ go (بدون to)، going (gerund)، went (ماضي)."
+  },
+  {
+    "text": "He managed ........... the door without the key.",
+    "options": ["opened", "to open", "opens", "opening"],
+    "correct": "B",
+    "explanation": "✅ manage + to + infinitive. ❌ opened (ماضي)، opens (مضارع)، opening (gerund)."
+  },
+  {
+    "text": "Frank offered ........... us to the supermarket.",
+    "options": ["to drive", "drove", "driving", "drives"],
+    "correct": "A",
+    "explanation": "✅ offer + to + infinitive. ❌ drove (ماضي)، driving (gerund)، drives (مضارع)."
+  },
+  {
+    "text": "They choose ........... happy.",
+    "options": ["be", "being", "been", "to be"],
+    "correct": "D",
+    "explanation": "✅ choose + to + infinitive. ❌ be (بدون to)، being (gerund)، been (تصريف ثالث)."
+  },
+  {
+    "text": "I expect ...........",
+    "options": ["come", "to come", "came", "coming"],
+    "correct": "B",
+    "explanation": "✅ expect + to + infinitive. ❌ come (بدون to)، came (ماضي)، coming (gerund)."
+  },
+  {
+    "text": "Don't forget ........... out the garbage.",
+    "options": ["taking", "takes", "to take", "took"],
+    "correct": "C",
+    "explanation": "✅ forget + to + infinitive. ❌ taking (gerund)، takes (مضارع)، took (ماضي)."
+  },
+  {
+    "text": "He has learned ........... patient.",
+    "options": ["to be", "been", "be", "being"],
+    "correct": "A",
+    "explanation": "✅ learn + to + infinitive. ❌ been (تصريف ثالث)، be (بدون to)، being (gerund)."
+  },
+  {
+    "text": "I learned ........... without her.",
+    "options": ["living", "lived", "to live", "live"],
+    "correct": "C",
+    "explanation": "✅ learn + to + infinitive. ❌ living (gerund)، lived (ماضي)، live (بدون to)."
+  },
+  {
+    "text": "I refused ........... the question.",
+    "options": ["answered", "to answer", "answering", "answers"],
+    "correct": "B",
+    "explanation": "✅ refuse + to + infinitive. ❌ answered (ماضي)، answering (gerund)، answers (مضارع)."
+  },
+  {
+    "text": "I remembered ........... calm.",
+    "options": ["stays", "stayed", "staying", "to stay"],
+    "correct": "D",
+    "explanation": "✅ remember + to + infinitive. ❌ stays/stayed (أفعال)، staying (gerund)."
+  },
+  {
+    "text": "She didn't even try ........... the right thing.",
+    "options": ["did", "does", "to do", "done"],
+    "correct": "C",
+    "explanation": "✅ try + to + infinitive. ❌ did/does (فعل مساعد)، done (تصريف ثالث)."
+  },
+  {
+    "text": "Many people try ........... up smoking.",
+    "options": ["to give", "gave", "gives", "giving"],
+    "correct": "A",
+    "explanation": "✅ try + to + infinitive. ❌ gave (ماضي)، gives (مضارع)، giving (gerund)."
+  },
+  {
+    "text": "He allowed me ........... his computer.",
+    "options": ["using", "to use", "used", "use"],
+    "correct": "B",
+    "explanation": "✅ allow + object + to + infinitive. ❌ using (gerund)، used (ماضي)، use (بدون to)."
+  },
+  {
+    "text": "They expect him ........... early.",
+    "options": ["arrives", "arrived", "to arrive", "arriving"],
+    "correct": "C",
+    "explanation": "✅ expect + object + to + infinitive. ❌ arrives (مضارع)، arrived (ماضي)، arriving (gerund)."
+  },
+  {
+    "text": "She promised him ........... smoking.",
+    "options": ["stopped", "to stop", "stops", "stopping"],
+    "correct": "B",
+    "explanation": "✅ promise + object + to + infinitive. ❌ stopped (ماضي)، stops (مضارع)، stopping (gerund)."
+  },
+  {
+    "text": "........... is my hobby.",
+    "options": ["Cook", "cooks", "Cooked", "Cooking"],
+    "correct": "D",
+    "explanation": "✅ Gerund كفاعل: Cooking. ❌ Cook (مصدر)، cooks (مضارع)، Cooked (ماضي)."
+  },
+  {
+    "text": "........... homework is boring.",
+    "options": ["Doing", "Did", "Done", "Does"],
+    "correct": "A",
+    "explanation": "✅ Gerund كفاعل: Doing. ❌ Did (ماضي)، Done (تصريف ثالث)، Does (مضارع)."
+  },
+  {
+    "text": "I ........... articles on various topics before he came.",
+    "options": ["wrote", "had written", "write", "writing"],
+    "correct": "B",
+    "explanation": "✅ Past perfect: had written (حدث قبل حدث آخر في الماضي). ❌ wrote (ماضي بسيط)، write (مضارع)، writing (gerund)."
+  },
+  {
+    "text": "They had played football in that field before it ........... to rain.",
+    "options": ["started", "starting", "stars", "to start"],
+    "correct": "A",
+    "explanation": "✅ Past simple after 'before'. ❌ starting (gerund)، stars (نجوم)، to start (مصدر)."
+  },
+  {
+    "text": "After the exams had finished, they ........... a party.",
+    "options": ["having", "have", "had", "to have"],
+    "correct": "C",
+    "explanation": "✅ Past simple: had (أقاموا). ❌ having (gerund)، have (مضارع)، to have (مصدر)."
+  },
+  {
+    "text": "The party couldn't start until Kate ...........",
+    "options": ["to arrive", "had arrived", "arriving", "arrives"],
+    "correct": "B",
+    "explanation": "✅ Past perfect (had arrived) قبل أن تبدأ الحفلة. ❌ to arrive (مصدر)، arriving (gerund)، arrives (مضارع)."
+  },
+  {
+    "text": "The film had started before I ........... dinner.",
+    "options": ["to eat", "eating", "ate", "eats"],
+    "correct": "C",
+    "explanation": "✅ Past simple after 'before' (ate). ❌ to eat (مصدر)، eating (gerund)، eats (مضارع)."
+  },
+  {
+    "text": "He ........... healthy until he started overeating.",
+    "options": ["had been", "been", "being", "be"],
+    "correct": "A",
+    "explanation": "✅ Past perfect: had been. ❌ been (بدون had)، being (gerund)، be (مصدر)."
+  },
+  {
+    "text": "I have a 15 min ...........",
+    "options": ["m", "b", "p", "d"],
+    "correct": "D",
+    "explanation": "✅ break (استراحة) – الحرف الناقص d (break). ❌ m,b,p."
+  },
+  {
+    "text": "He knows how to eat with ch...........",
+    "options": ["a", "i", "e", "o"],
+    "correct": "B",
+    "explanation": "✅ chopsticks (عيدان الأكل) – الحرف الناقص i (chopsticks). ❌ a,e,o."
+  },
+  {
+    "text": "It is the c...........",
+    "options": ["u", "e", "i", "a"],
+    "correct": "D",
+    "explanation": "✅ custom (عادة/تقاليد) – الحرف الناقص a (custom). ❌ u,e,i."
+  },
+  {
+    "text": "Clean the du...........",
+    "options": ["i", "a", "u", "e"],
+    "correct": "B",
+    "explanation": "✅ dust (غبار) – الحرف الناقص a (dust). ❌ i,u,e."
+  },
+  {
+    "text": "Our ...........",
+    "options": ["k", "g", "l", "z"],
+    "correct": "C",
+    "explanation": "✅ luck (حظ) – الحرف الناقص l (luck). ❌ k,g,z."
+  },
+  {
+    "text": "We were selected as h...........",
+    "options": ["i", "e", "a", "o"],
+    "correct": "B",
+    "explanation": "✅ hosts (المضيفون) – الحرف الناقص e (hosts). ❌ i,a,o."
+  },
+  {
+    "text": "We'll try to make a good ...........",
+    "options": ["e", "u", "i", "a"],
+    "correct": "D",
+    "explanation": "✅ impression (انطباع) – الحرف الناقص a (impression). ❌ e,u,i."
+  },
+  {
+    "text": "I want to see my la...........",
+    "options": ["w", "n", "z", "q"],
+    "correct": "A",
+    "explanation": "✅ lawyer (محامٍ) – الحرف الناقص w (lawyer). ❌ n,z,q."
+  },
+  {
+    "text": "Many villages in Mali consist of m...........",
+    "options": ["o", "u", "a", "u"],
+    "correct": "B",
+    "explanation": "✅ mud (طين) – الحرف الناقص u (mud). ❌ o,a,u (مكرر)."
+  },
+  {
+    "text": "Tom has no money in his poc...........",
+    "options": ["q", "g", "k", "j"],
+    "correct": "C",
+    "explanation": "✅ pocket (جيب) – الحرف الناقص k (pocket). ❌ q,g,j."
+  },
+  {
+    "text": "The hotel p...........",
+    "options": ["o", "e", "i", "a"],
+    "correct": "B",
+    "explanation": "✅ porter (حمال) – الحرف الناقص e (porter). ❌ o,i,a."
+  },
+  {
+    "text": "Her mother's death came as a great ...........",
+    "options": ["r", "x", "z", "s"],
+    "correct": "A",
+    "explanation": "✅ shock (صدمة) – الحرف الناقص r (shock). ❌ x,z,s."
+  },
+  {
+    "text": "The surn...........",
+    "options": ["e", "a", "i", "o"],
+    "correct": "A",
+    "explanation": "✅ surname (اسم العائلة) – الحرف الناقص e (surname). ❌ a,i,o."
+  },
+  {
+    "text": "Thanks for the t...........",
+    "options": ["i", "o", "a", "i"],
+    "correct": "B",
+    "explanation": "✅ tip (بقشيش) – الحرف الناقص o (tip؟؟ tip لا يحتوي o. الصحيح tip حرف i. لكن الخيارات i,o,a,i. يمكن الخطأ؟ let's check original PDF: 'Thanks for the tip' is a phrase. tip حروفها t,i,p. لذا الحرف الناقص هو i. الخيار الأول i. إذن الإجابة A (i). سأصحح في التفسير.",
+    "correct": "A",
+    "explanation": "✅ tip (بقشيش) – الحرف الناقص i (tip). ❌ o,a,i (مكرر)."
+  },
+  {
+    "text": "This is a good to...........",
+    "options": ["l", "b", "p", "k"],
+    "correct": "C",
+    "explanation": "✅ topic (موضوع) – الحرف الناقص p (topic). ❌ l,b,k."
+  },
+  {
+    "text": "It took her a while to ad...........",
+    "options": ["k", "j", "l", "m"],
+    "correct": "A",
+    "explanation": "✅ adjust (يتكيف) – الحرف الناقص k (adjust؟ adjust بها d j u s t. لا يوجد k. الصحيح adjust حرف j. الخيار الثاني j. إذن الإجابة B (j).",
+    "correct": "B",
+    "explanation": "✅ adjust (يتكيف) – الحرف الناقص j (adjust). ❌ k,l,m."
+  },
+  {
+    "text": "We can't all...........",
+    "options": ["u", "a", "e", "o"],
+    "correct": "D",
+    "explanation": "✅ allow (يسمح) – الحرف الناقص o (allow). ❌ u,a,e."
+  },
+  {
+    "text": "He used to s...........",
+    "options": ["q", "b", "p", "z"],
+    "correct": "C",
+    "explanation": "✅ spear (يطعن بالشوكة) – الحرف الناقص p (spear). ❌ q,b,z."
+  },
+  {
+    "text": "My mum always comm...........",
+    "options": ["o", "i", "e", "a"],
+    "correct": "A",
+    "explanation": "✅ comment (يعلق) – الحرف الناقص o (comment). ❌ i,e,a."
+  },
+  {
+    "text": "I e...........",
+    "options": ["t", "x", "z", "s"],
+    "correct": "A",
+    "explanation": "✅ expect (يتوقع) – الحرف الناقص t (expect). ❌ x,z,s."
+  },
+  {
+    "text": "They exch...........",
+    "options": ["a", "e", "i", "o"],
+    "correct": "A",
+    "explanation": "✅ exchange (يتبادل) – الحرف الناقص a (exchange). ❌ e,i,o."
+  },
+  {
+    "text": "The lawy...........",
+    "options": ["u-z", "a-p", "i-g", "e-d"],
+    "correct": "D",
+    "explanation": "✅ lawyer (محامٍ) – الحرفان الناقصان e و d (lawyer). ❌ uz, ap, ig."
+  },
+  {
+    "text": "Give yourself a ...... and get some rest.",
+    "options": ["host", "break", "chopstick", "porter"],
+    "correct": "B",
+    "explanation": "✅ break (استراحة) – 'give yourself a break'. ❌ host, chopstick, porter."
+  },
+  {
+    "text": "I'll be fine after we ...... for a little bit.",
+    "options": ["allow", "rest", "expect", "rush"],
+    "correct": "B",
+    "explanation": "✅ rest (نرتاح). ❌ allow (يسمح)، expect (يتوقع)، rush (يسرع)."
+  },
+  {
+    "text": "I have never eaten with ......",
+    "options": ["customs", "lawyers", "hosts", "chopsticks"],
+    "correct": "D",
+    "explanation": "✅ chopsticks (عيدان الأكل). ❌ customs (تقاليد)، lawyers (محامون)، hosts (مضيفون)."
+  },
+  {
+    "text": "They kept to the ...... to hold their wedding.",
+    "options": ["custom", "pocket", "surname", "mud"],
+    "correct": "A",
+    "explanation": "✅ custom (تقاليد). ❌ pocket (جيب)، surname (اسم عائلة)، mud (طين)."
+  },
+  {
+    "text": "The floor was covered with ......",
+    "options": ["topic", "dust", "shock", "tip"],
+    "correct": "B",
+    "explanation": "✅ dust (غبار). ❌ topic (موضوع)، shock (صدمة)، tip (بقشيش)."
+  },
+  {
+    "text": "I was a ...... at Tom's house for a week.",
+    "options": ["break", "surname", "guest", "pocket"],
+    "correct": "C",
+    "explanation": "✅ guest (ضيف). ❌ break (استراحة)، surname (اسم عائلة)، pocket (جيب)."
+  },
+  {
+    "text": "She thanked the ...... for their hospitality.",
+    "options": ["host", "dust", "topic", "custom"],
+    "correct": "A",
+    "explanation": "✅ host (مضيف). ❌ dust (غبار)، topic (موضوع)، custom (تقاليد)."
+  },
+  {
+    "text": "His speech made a good ...... on me.",
+    "options": ["tip", "impression", "lawyer", "chopstick"],
+    "correct": "B",
+    "explanation": "✅ impression (انطباع). ❌ tip (بقشيش)، lawyer (محامٍ)، chopstick (عود أكل)."
+  },
+  {
+    "text": "She's hired a ...... who specializes in divorce cases.",
+    "options": ["editor", "farmer", "porter", "lawyer"],
+    "correct": "D",
+    "explanation": "✅ lawyer (محامٍ). ❌ editor (محرر)، farmer (مزارع)، porter (حمال)."
+  },
+  {
+    "text": "There was a lot of ...... on the ground.",
+    "options": ["host", "topic", "mud", "break"],
+    "correct": "C",
+    "explanation": "✅ mud (طين). ❌ host (مضيف)، topic (موضوع)، break (استراحة)."
+  },
+  {
+    "text": "My wallet's in my ......",
+    "options": ["pocket", "shock", "topic", "custom"],
+    "correct": "A",
+    "explanation": "✅ pocket (جيب). ❌ shock (صدمة)، topic (موضوع)، custom (تقاليد)."
+  },
+  {
+    "text": "I will ask a ...... to carry the luggage for me.",
+    "options": ["driver", "farmer", "porter", "lawyer"],
+    "correct": "C",
+    "explanation": "✅ porter (حمال). ❌ driver (سائق)، farmer (مزارع)، lawyer (محامٍ)."
+  },
+  {
+    "text": "My grandmother's death was a big ......",
+    "options": ["shock", "tip", "mud", "guest"],
+    "correct": "A",
+    "explanation": "✅ shock (صدمة). ❌ tip (بقشيش)، mud (طين)، guest (ضيف)."
+  },
+  {
+    "text": "Her first name is Sarah but I don't know her ......",
+    "options": ["pocket", "impression", "graduate", "surname"],
+    "correct": "D",
+    "explanation": "✅ surname (اسم العائلة). ❌ pocket (جيب)، impression (انطباع)، graduate (خريج)."
+  },
+  {
+    "text": "Don't forget to ...... the porter for carrying your luggage.",
+    "options": ["break", "tip", "dust", "pocket"],
+    "correct": "B",
+    "explanation": "✅ tip (يعطي بقشيش). ❌ break (يكسر)، dust (يغبر)، pocket (يجيب)."
+  },
+  {
+    "text": "The weather is a constant ...... of conversation in Britain.",
+    "options": ["custom", "chopstick", "topic", "dust"],
+    "correct": "C",
+    "explanation": "✅ topic (موضوع). ❌ custom (تقاليد)، chopstick (عود أكل)، dust (غبار)."
+  },
+  {
+    "text": "It is difficult for the old man to ...... to city life.",
+    "options": ["spread", "rush", "rest", "adjust"],
+    "correct": "D",
+    "explanation": "✅ adjust (يتكيف). ❌ spread (ينتشر)، rush (يسرع)، rest (يستريح)."
+  },
+  {
+    "text": "We do not ...... smoking in the hall.",
+    "options": ["allow", "block", "adjust", "remove"],
+    "correct": "A",
+    "explanation": "✅ allow (يسمح). ❌ block (يمنع)، adjust (يتكيف)، remove (يزيل)."
+  },
+  {
+    "text": "The street was ...... by a huge truck.",
+    "options": ["tipped", "blocked", "expected", "adjusted"],
+    "correct": "B",
+    "explanation": "✅ blocked (ممنوع/مسدود). ❌ tipped (أعطى بقشيش)، expected (توقع)، adjusted (تكيف)."
+  },
+  {
+    "text": "...... a piece of fish with a carving fork and dip it in the batter.",
+    "options": ["handle", "tip", "Spear", "comment"],
+    "correct": "C",
+    "explanation": "✅ Spear (يطعن). ❌ handle (يتعامل مع)، tip (بقشيش)، comment (يعلق)."
+  },
+  {
+    "text": "Be careful you don't ...... your head.",
+    "options": ["bump", "expect", "graduate", "block"],
+    "correct": "A",
+    "explanation": "✅ bump (يصطدم). ❌ expect (يتوقع)، graduate (يتخرج)، block (يمنع)."
+  },
+  {
+    "text": "If you find a mistake, please leave a ......",
+    "options": ["handle", "comment", "allow", "manage"],
+    "correct": "B",
+    "explanation": "✅ comment (تعليق). ❌ handle (مقبض)، allow (يسمح)، manage (يدير)."
+  },
+  {
+    "text": "I don't want to ...... you, but let's try to catch the next bus.",
+    "options": ["adjust", "exchange", "rush", "remove"],
+    "correct": "C",
+    "explanation": "✅ rush (يستعجل). ❌ adjust (يتكيف)، exchange (يتبادل)، remove (يزيل)."
+  },
+  {
+    "text": "Sara and Mary ...... numbers at the party.",
+    "options": ["exchanged", "blocked", "expected", "adjusted"],
+    "correct": "A",
+    "explanation": "✅ exchanged (تبادلا). ❌ blocked (منعا)، expected (توقعا)، adjusted (تكيفا)."
+  },
+  {
+    "text": "She's always very ...... for appointments.",
+    "options": ["crowded", "customary", "relaxed", "punctual"],
+    "correct": "D",
+    "explanation": "✅ punctual (دقيق في المواعيد). ❌ crowded (مزدحم)، customary (معتاد)، relaxed (مرتاح)."
+  }
+]
